@@ -3,7 +3,7 @@ import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import { Fade } from "react-reveal";
 import { FaPlay, FaExternalLinkAlt } from "react-icons/fa";
 import "./ProjectCard.css";
-import ProjectModal from "./ProjectModal";
+import ProjectModal from "../projectModal/ProjectModal";
 
 export default function ProjectCard({ repo, theme }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -84,11 +84,11 @@ export default function ProjectCard({ repo, theme }) {
               <p className="repo-impact" style={{ color: theme.text }}>
                 {Array.isArray(repo.impact)
                   ? repo.impact.map((point, index) => (
-                      <span key={index} className="impact-point">
-                        {point}
-                        {index < repo.impact.length - 1 && <br />}
-                      </span>
-                    ))
+                    <span key={index} className="impact-point">
+                      {point}
+                      {index < repo.impact.length - 1 && <br />}
+                    </span>
+                  ))
                   : repo.impact}
               </p>
             )}
