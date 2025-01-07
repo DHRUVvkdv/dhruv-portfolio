@@ -41,17 +41,31 @@ export default function ProjectCard({ repo, theme }) {
               </div>
             )}
 
-            {repo.date && (
-              <div
-                className="repo-date-badge"
-                style={{
-                  backgroundColor: `${theme.text}15`,
-                  color: theme.text,
-                }}
-              >
-                {repo.date}
-              </div>
-            )}
+            <div className="repo-metadata">
+              {repo.date && (
+                <div
+                  className="repo-tag"
+                  style={{
+                    backgroundColor: `${theme.text}15`,
+                    color: theme.text,
+                  }}
+                >
+                  {repo.date}
+                </div>
+              )}
+              {repo.tags && repo.tags.map((tag, index) => (
+                <div
+                  key={index}
+                  className="repo-tag"
+                  style={{
+                    backgroundColor: `${theme.text}15`,
+                    color: theme.text,
+                  }}
+                >
+                  {tag}
+                </div>
+              ))}
+            </div>
 
             <div
               className="repo-name-div"

@@ -53,6 +53,17 @@
   transform: translate(-50%, -50%) scale(1.1);
 }
 
+.repo-metadata {
+  display: flex;
+  gap: 1.25rem;  /* Increased spacing between tags */
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
 .repo-name-div {
   display: flex;
   align-items: center;
@@ -100,7 +111,8 @@
   opacity: 0.9;
 }
 
-.repo-date-badge {
+.repo-date-badge,
+.repo-type-badge {
   display: inline-block;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
@@ -110,7 +122,24 @@
   backdrop-filter: blur(4px);
   color: inherit;
   opacity: 0.8;
-  margin: 0.5rem 0;
+}
+
+.repo-tag {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: "Google Sans Regular";
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  color: inherit;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+
+.repo-tag:hover {
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
 .repo-languages {
