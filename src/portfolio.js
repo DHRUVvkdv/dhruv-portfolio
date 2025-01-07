@@ -725,68 +725,56 @@ const publications = {
 // Academic Projects Page
 const academicProjectsHeader = {
   title: "Academic Projects",
-  description:
-    "My projects showcase my academic journey using various technologies and tools.",
+  description: "My projects showcase my academic journey using various technologies and tools.",
   avatar_image_path: "projects_image.svg",
-  categories: [
+  projects: [
     {
-      name: "Web Development",
-      projects: [
-        {
-          title: "E-Commerce Website",
-          description:
-            "Built a full-stack e-commerce platform for a local business",
-          technologies: ["React", "Node.js", "MongoDB"],
-          image: "project1.jpg",
-          link: "https://github.com/yourusername/project1",
-          date: "Spring 2023",
-          course: "Web Development II",
-          features: [
-            "User authentication",
-            "Shopping cart functionality",
-            "Payment integration",
-          ],
-        },
+      name: "E-Commerce Website",
+      semester: "Fall 2023",
+      course: "Web Development II",
+      description: "Built a full-stack e-commerce platform with user authentication, shopping cart, and payment integration.",
+      outcomes: [
+        "Implemented secure user authentication system",
+        "Developed real-time shopping cart functionality",
+        "Integrated Stripe payment gateway"
       ],
-    },
-    {
-      name: "Data Science",
-      projects: [
+      "languages": [
         {
-          title: "Customer Segmentation Analysis",
-          description: "Analyzed customer data to identify key market segments",
-          technologies: ["Python", "Scikit-learn", "Pandas"],
-          image: "project2.jpg",
-          link: "https://github.com/yourusername/project2",
-          date: "Fall 2023",
-          course: "Data Mining",
-          features: [
-            "K-means clustering",
-            "Data visualization",
-            "Statistical analysis",
-          ],
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
         },
         {
-          title: "Customer Segmentation Analysis",
-          description: "Analyzed customer data to identify key market segments",
-          technologies: ["Python", "Scikit-learn", "Pandas"],
-          image: "project2.jpg",
-          link: "https://github.com/yourusername/project2",
-          date: "Fall 2023",
-          course: "Data Mining",
-          features: [
-            "K-means clustering",
-            "Data visualization",
-            "Statistical analysis",
-          ],
+          "name": "Python",
+          "iconifyClass": "logos-python"
         },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
       ],
+      images: [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711470526/ktyybk4sykenps3omzgf.jpg",
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"
+      ],
+      github: "https://github.com/yourusername/ecommerce",
+      demo: "https://demo-ecommerce.com"
     },
     {
-      name: "Mobile Development",
-      projects: [],
-    },
-  ],
+      name: "Customer Segmentation Analysis",
+      semester: "Spring 2023",
+      course: "Data Mining",
+      description: "Analyzed customer behavior data to identify key market segments using machine learning techniques.",
+      outcomes: [
+        "Applied K-means clustering algorithm",
+        "Created interactive data visualizations",
+        "Performed statistical analysis of segments"
+      ],
+      languages: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+      images: ["https://res.cloudinary.com/dru4ekf2q/video/upload/v1736185134/Portfolio/30_June_2021_4_e13vwl.mp4", "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"],
+      thumbnail: "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
+      github: "https://github.com/yourusername/customer-segmentation"
+    }
+  ]
 };
 
 // Contact Page
