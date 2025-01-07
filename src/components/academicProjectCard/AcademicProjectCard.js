@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ProjectLanguages from "../projectLanguages/ProjectLanguages";
 import { Fade } from "react-reveal";
-import { FaGithub, FaExternalLinkAlt, FaChevronLeft, FaChevronRight, FaPlay } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "./AcademicProjectCard.css";
 
 const AcademicProjectCard = ({ project, theme }) => {
@@ -34,14 +34,11 @@ const AcademicProjectCard = ({ project, theme }) => {
     return (
         <div className="academic-card-div" style={{ backgroundColor: theme.highlight }}>
             <Fade bottom duration={2000} distance="40px">
-                {/* Media Section */}
                 {currentMedia && (
                     <div className="media-preview">
                         {isVideo(currentMedia) ? (
                             <div className="video-container">
                                 <video
-                                    width="100%"
-                                    height="100%"
                                     controls
                                     className="media-content"
                                 >
@@ -78,7 +75,6 @@ const AcademicProjectCard = ({ project, theme }) => {
                     </div>
                 )}
 
-                {/* Rest of the card content */}
                 <div className="academic-metadata">
                     <div
                         className="repo-tag"
@@ -124,6 +120,20 @@ const AcademicProjectCard = ({ project, theme }) => {
                 <p className="repo-description" style={{ color: theme.text }}>
                     {project.description}
                 </p>
+
+                {project.outcomes && (
+                    <div className="repo-outcomes">
+                        {project.outcomes.map((outcome, index) => (
+                            <div
+                                key={index}
+                                className="outcome-point"
+                                style={{ color: theme.text }}
+                            >
+                                • {outcome}
+                            </div>
+                        ))}
+                    </div>
+                )}
 
                 <div className="repo-languages">
                     <ProjectLanguages logos={project.languages} />

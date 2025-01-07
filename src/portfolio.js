@@ -769,10 +769,78 @@ const academicProjectsHeader = {
         "Created interactive data visualizations",
         "Performed statistical analysis of segments"
       ],
-      languages: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ],
       images: ["https://res.cloudinary.com/dru4ekf2q/video/upload/v1736185134/Portfolio/30_June_2021_4_e13vwl.mp4", "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"],
       thumbnail: "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
       github: "https://github.com/yourusername/customer-segmentation"
+    },
+    {
+      name: "Customer Segmentation Analysis",
+      semester: "Spring 2023",
+      course: "Data Mining",
+      description: "Analyzed customer behavior data to identify key market segments using machine learning techniques.",
+      outcomes: [
+        "Applied K-means clustering algorithm",
+        "Created interactive data visualizations",
+        "Performed statistical analysis of segments"
+      ],
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ],
+      images: ["https://res.cloudinary.com/dru4ekf2q/video/upload/v1736185134/Portfolio/30_June_2021_4_e13vwl.mp4", "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"],
+      thumbnail: "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
+      github: "https://github.com/yourusername/customer-segmentation"
+    },
+    {
+      name: "Customer Segmentation Analysis",
+      semester: "Spring 2023",
+      course: "Data Mining",
+      description: "Analyzed customer behavior data to identify key market segments using machine learning techniques.",
+      outcomes: [
+        "Applied K-means clustering algorithm",
+        "Created interactive data visualizations",
+        "Performed statistical analysis of segments"
+      ],
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ],
+      images: ["https://res.cloudinary.com/dru4ekf2q/video/upload/v1736185134/Portfolio/30_June_2021_4_e13vwl.mp4", "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"],
+      thumbnail: "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg"
     }
   ]
 };
