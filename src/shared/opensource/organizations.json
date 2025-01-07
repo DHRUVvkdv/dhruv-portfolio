@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "login": "Constellation-Technologies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147568527?v=4",
+      "__typename": "Organization"
+    },
+    {
+      "login": "Contentstack-Solutions",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59389391?v=4",
+      "__typename": "Organization"
+    }
+  ]
+}
