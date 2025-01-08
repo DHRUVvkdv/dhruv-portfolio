@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { Fade } from "react-reveal";
-import { FaAward, FaCode, FaFlask, FaCertificate, FaLink, FaChevronLeft, FaChevronRight, FaTrophy } from "react-icons/fa";
+import React, { useState } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import { achievementsData } from '../../data/achievementsData';
-import "./Achievements.css";
+import { Fade } from "react-reveal";
+import { FaAward, FaCode, FaFlask, FaCertificate, FaLink, FaChevronLeft, FaChevronRight, FaTrophy } from "react-icons/fa";
 import EducationImg from "./EducationImg";
+import { achievementsData, achievementCategories } from "../../data/achievementsData";
+import "./Achievements.css";
 
 const CategoryIcon = ({ category }) => {
     const icons = {
@@ -118,9 +118,9 @@ const TimelineItem = ({ achievement, side, theme }) => {
     );
 };
 
-const AchievementsPage = ({ theme }) => {
+const Achievements = ({ theme }) => {
     const [filter, setFilter] = useState('all');
-    const categories = ['all', 'hackathon', 'research', 'certificate', 'award'];
+    const categories = ['all', ...new Set(achievementsData.map(item => item.category))];
 
     const filteredAchievements = achievementsData.filter(
         a => filter === 'all' || a.category === filter
@@ -134,84 +134,75 @@ const AchievementsPage = ({ theme }) => {
     };
 
     return (
-        <div>
+        <div className="achievements-main">
             <Header theme={theme} />
-
-            <div className="main" id="achievements">
-                <div className="achievements-main">
-                    <div className="basic-achievements">
-                        <div className="achievements-image-div">
+            <div className="basic-achievements">
+                <Fade bottom duration={2000} distance="40px">
+                    <div className="projects-heading-div">
+                        <div className="projects-heading-img-div">
                             <EducationImg theme={theme} />
                         </div>
-                        <div className="achievements-text-div">
-                            <h1 className="achievements-heading" style={{ color: theme.text }}>
+                        <div className="projects-heading-text-div">
+                            <h1 className="projects-heading-text" style={{ color: theme.text }} >
                                 Achievements & Recognition
                             </h1>
-                            <p
-                                className="achievements-subtitle"
-                                style={{ color: theme.secondaryText }}
-                            >
-                                My academic and professional milestones showcasing innovation,
-                                research, and technical excellence
+                            <p className="projects-header-detail-text" style={{ color: theme.secondaryText }}>
+                                A Timeline of Academic and Professional Milestones
                             </p>
+                            <div className="achievement-stats">
+                                {Object.entries(stats).map(([key, value]) => (
+                                    <div
+                                        key={key}
+                                        className="stat-item"
+                                        style={{ backgroundColor: theme.highlight, color: theme.text }}
+                                    >
+                                        <CategoryIcon category={key.replace('s', '')} />
+                                        <span className="stat-value">{value}</span>
+                                        <span className="stat-label">
+                                            {key.charAt(0).toUpperCase() + key.slice(1)}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
                         </div>
                     </div>
+                </Fade>
 
-                    <div className="achievements-content-div">
-                        {/* Stats Section */}
-                        <div className="achievement-stats">
-                            {Object.entries(stats).map(([key, value]) => (
-                                <div
-                                    key={key}
-                                    className="stat-item"
-                                    style={{ backgroundColor: theme.highlight, color: theme.text }}
-                                >
-                                    <CategoryIcon category={key.replace('s', '')} />
-                                    <span className="stat-value">{value}</span>
-                                    <span className="stat-label">
-                                        {key.charAt(0).toUpperCase() + key.slice(1)}
-                                    </span>
-                                </div>
-                            ))}
-                        </div>
+                <div className="achievements-content">
+                    <div className="filter-container">
+                        {categories.map(category => (
+                            <button
+                                key={category}
+                                onClick={() => setFilter(category)}
+                                className={`filter-button ${filter === category ? 'active' : ''}`}
+                                style={{
+                                    backgroundColor: filter === category ? theme.text : `${theme.text}15`,
+                                    color: filter === category ? theme.highlight : theme.text
+                                }}
+                            >
+                                <CategoryIcon category={category} />
+                                {category.charAt(0).toUpperCase() + category.slice(1)}
+                            </button>
+                        ))}
+                    </div>
 
-                        {/* Filter Buttons */}
-                        <div className="filter-container">
-                            {categories.map(category => (
-                                <button
-                                    key={category}
-                                    onClick={() => setFilter(category)}
-                                    className={`filter-button ${filter === category ? 'active' : ''}`}
-                                    style={{
-                                        backgroundColor: filter === category ? theme.text : `${theme.text}15`,
-                                        color: filter === category ? theme.highlight : theme.text
-                                    }}
-                                >
-                                    <CategoryIcon category={category} />
-                                    {category.charAt(0).toUpperCase() + category.slice(1)}
-                                </button>
-                            ))}
-                        </div>
-
-                        {/* Timeline */}
-                        <div className="timeline-container">
-                            <div className="timeline-line" style={{ backgroundColor: `${theme.text}30` }}></div>
-                            {filteredAchievements.map((achievement, index) => (
-                                <TimelineItem
-                                    key={achievement.id}
-                                    achievement={achievement}
-                                    side={index % 2 === 0 ? 'left' : 'right'}
-                                    theme={theme}
-                                />
-                            ))}
-                        </div>
+                    <div className="timeline-container">
+                        <div className="timeline-line" style={{ backgroundColor: `${theme.text}30` }}></div>
+                        {filteredAchievements.map((achievement, index) => (
+                            <TimelineItem
+                                key={achievement.id}
+                                achievement={achievement}
+                                side={index % 2 === 0 ? 'left' : 'right'}
+                                theme={theme}
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
-
             <Footer theme={theme} />
-        </div>
+            <TopButton theme={theme} />
+        </div >
     );
 };
 
-export default AchievementsPage;
+export default Achievements;
