@@ -1,10 +1,23 @@
-.footer-text {
-  text-align: center;
-  /* color: #868e96; */
-  font-weight: bold;
-  font-family: "Google Sans Regular";
-}
-
 .footer-div {
   margin-top: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Adjust space between elements */
+  flex-wrap: wrap; /* Handles responsive alignment for small screens */
+}
+
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  margin: 0;
+}
+
+.visitor-count {
+  font-size: 14px;
+  color: #868e96;
 }

@@ -1,0 +1,57 @@
+.visitor-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    backdrop-filter: blur(5px);
+    background: rgba(129, 222, 234, 1); /* Light blue background */
+    animation: backgroundPulse 3s infinite ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .visitor-count span.text-sm {
+    color: rgb(16, 99, 90); /* Deep green text color */
+    font-weight: bold;
+  }
+
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mt-2 {
+    margin-top: 0; /* Adjust if needed for spacing */
+  }
+  
+  .inline-flex {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  @keyframes backgroundPulse {
+    0% {
+      background: rgba(129, 222, 234, 0.8);
+    }
+    50% {
+      background: rgba(129, 222, 234, 1);
+    }
+    100% {
+      background: rgba(129, 222, 234, 0.8);
+    }
+  }
+  
+  .visitor-count:hover {
+    background: rgba(129, 222, 234, 0.9); /* Slightly darker on hover */
+  }
