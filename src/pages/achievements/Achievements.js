@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 import { FaAward, FaCode, FaFlask, FaCertificate, FaLink, FaChevronLeft, FaChevronRight, FaTrophy } from "react-icons/fa";
 import EducationImg from "./EducationImg";
 import ProjectsImg from "./ProjectsImg";
-import { achievementsData, achievementCategories } from "../../data/achievementsData";
+import { achievementsData } from "../../data/achievementsData";
 import "./Achievements.css";
 
 const CategoryIcon = ({ category }) => {

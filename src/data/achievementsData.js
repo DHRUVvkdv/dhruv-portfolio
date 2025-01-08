@@ -49,7 +49,8 @@ export const achievementsData = [
         date: "December 2023",
         description: "Achieved AWS Solutions Architect Professional certification, demonstrating expertise in designing distributed systems.",
         images: [
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg"
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTABbXr4i-QODqhy7tofHYmTYh05rYPktzacw&s"
         ],
         impact: [
             "Scored in the top 95 percentile",
