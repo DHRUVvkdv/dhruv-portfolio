@@ -96,7 +96,7 @@ const SplashScreen = () => {
       }
       setPhase(2);
       setTimeout(() => setPhase(3), 1000);
-      setTimeout(() => setShowButton(true), 2000);
+      setTimeout(() => setShowButton(true), 800);
     };
 
     runSequence();
