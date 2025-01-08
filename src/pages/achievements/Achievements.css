@@ -1,10 +1,9 @@
 /* Main Container */
 .achievements-main {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  width: 100vw; /* Ensure it spans the full viewport width */
+  padding: 0;   /* Remove extra padding to cover full width */
 }
+
 
 .basic-achievements {
   width: 100%;
@@ -89,10 +88,12 @@
 
 /* Filter Section */
 .achievements-content {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 2rem;
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
+
 
 .filter-container {
   display: flex;
@@ -339,9 +340,9 @@
   }
 
   .timeline-container {
-    padding-left: 2rem;
-    width: calc(100% - 2rem);
-  }
+    width: 100%;
+    padding-left: 0; 
+}
 
   .timeline-line {
     left: 0;
