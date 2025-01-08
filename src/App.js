@@ -4,9 +4,13 @@ import Main from "./containers/Main";
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
 import { GlobalStyles } from "./global";
-import { Analytics } from "@vercel/analytics/react"
+import { inject } from "@vercel/analytics"
 
 function App() {
+  React.useEffect(() => {
+    inject();
+  }, []);
+
   return (
     <ThemeProvider theme={chosenTheme}>
       <>
@@ -14,7 +18,6 @@ function App() {
         <div>
           <Main theme={chosenTheme} />
         </div>
-        <Analytics />
       </>
     </ThemeProvider>
   );
