@@ -1,0 +1,19 @@
+Originally used colors:
+
+theme.compImgHighlight
+
+theme.imageHighlight
+
+theme.text
+
+theme.dark
+
+theme.jacketColor
+
+Mine favorite colors:
+
+theme.highlight
+
+theme.jacketColor
+
+theme.secondaryText
