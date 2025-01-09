@@ -38,6 +38,20 @@
   justify-content: center;
 }
 
+.contact-heading-img-div img {
+  width: 450px;  
+  height: 450px; 
+  border-radius: 50%;  
+  object-fit: cover;  
+  transition: all 0.3s ease-in-out;  
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.2);  
+}
+
+.contact-heading-img-div img:hover {
+  transform: scale(1.05) translateY(-3px);  
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.3);  
+}
+
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;

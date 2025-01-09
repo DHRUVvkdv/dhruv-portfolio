@@ -5,7 +5,7 @@ import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+import ContactImg from "./ContactImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
@@ -81,7 +81,8 @@ class Contact extends Component {
 											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <BlogsImg theme={theme} />
+                {/* <BlogsImg theme={theme} /> */}
+                <ContactImg theme={theme} />
               </div>
             </div>
           </Fade>
@@ -92,7 +93,7 @@ class Contact extends Component {
 											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
 											alt=""
 										/> */}
-                <AddressImg theme={theme} />
+                {/* <AddressImg theme={theme} /> */}
               </div>
               <div className="address-heading-text-div">
                 <h1
