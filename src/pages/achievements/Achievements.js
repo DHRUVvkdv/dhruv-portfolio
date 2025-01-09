@@ -4,8 +4,7 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { FaAward, FaCode, FaFlask, FaCertificate, FaLink, FaChevronLeft, FaChevronRight, FaTrophy } from "react-icons/fa";
-import EducationImg from "./EducationImg";
-import ProjectsImg from "./ProjectsImg";
+import AchievementsImg from "./AchievementsImg";
 import { achievementsData } from "../../data/achievementsData";
 import "./Achievements.css";
 
@@ -141,7 +140,7 @@ const Achievements = ({ theme }) => {
                 <Fade bottom duration={2000} distance="40px">
                     <div className="projects-heading-div">
                         <div className="projects-heading-img-div">
-                            <ProjectsImg theme={theme} />
+                            <AchievementsImg theme={theme} />
                         </div>
                         <div className="projects-heading-text-div">
                             <h1 className="projects-heading-text" style={{ color: theme.text }} >
