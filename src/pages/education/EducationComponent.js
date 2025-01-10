@@ -31,17 +31,17 @@ class Education extends Component {
                 <h1 className="heading-text" style={{ color: theme.text }}>
                   Education
                 </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
-                </h3>
+                <p className="heading-sub-text" style={{ color: theme.secondaryText }}>
+                  Here is the information about my education.
+                </p>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
           </Fade>
           <Educations theme={this.props.theme} />
-          {certifications.certifications.length > 0 ? (
+          {/* {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
-          ) : null}
+          ) : null} */}
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />

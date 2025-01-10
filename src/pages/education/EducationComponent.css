@@ -15,6 +15,13 @@
   flex: 1;
 }
 
+.edu-text-p {
+  font-size: 40px;
+  line-height: 40px;
+  margin-right: 40px;
+  font-family: "Google Sans Medium";
+}
+
 .heading-img-div {
   display: flex;
   align-items: center;
