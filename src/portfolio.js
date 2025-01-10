@@ -9,11 +9,11 @@ const settings = {
 const seo = {
   title: "Dhruv's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A motivated individual who is always looking to learn and grow from every opportunity. I am a passionate learner and always looking to learn new technologies.",
   og: {
-    title: "Dhruv Hathidara Portfolio",
+    title: "Dhruv Varshney Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://dhruvv.dev/",
   },
 };
 
@@ -23,78 +23,77 @@ const greeting = {
   logo_name: "DhruvVarshney",
   nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A motivated individual who is always looking to learn and grow from every opportunity. I am a passionate learner and always looking to learn new technologies. ",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+    "https://drive.google.com/file/d/1sxGYxSx9Hgg6p1nYTDelExt_Pv6CGCBU/view?usp=sharing",
+  portfolio_repository: "https://github.com/DHRUVvkdv/dhruv-portfolio",
+  githubProfile: "https://github.com/DHRUVvkdv",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/DHRUVvkdv",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/dhruvvarshneyvk/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    name: "Devpost",
+    link: "https://devpost.com/dhruvvarshneyvk", // Replace with your Devpost username
+    fontAwesomeIcon: "fa-dev", // Reference https://fontawesome.com/icons/dev?f=brands
+    backgroundColor: "#003E54", // Reference https://simpleicons.org/?q=devpost
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:dhruvvarshney.job@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Devpost",
+  //   link: "mailto:dhruvvarshney.job@gmail.com",
+  //   imageSrc: "devpost.svg", // Reference https://fontawesome.com/icons/google?style=brands
+  //   backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  // }
 ];
 
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Machine Learning & Artificial Intelligence",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Using Machine Learning and Artificial Intelligence to solve real world problems",
+        "⚡ Experience with popular libraries like Tensorflow, Keras, Scikit-learn, Pandas, Numpy",
+        "⚡ Experience with CNNs, LSTMs, and time series analysis",
+        "⚡ Experience with working with AWS Bedrock, Langchain to make AI projects scalable and fast",
+        "⚡ Experience with Vector Databases like Pinecone, MongoDB",
+        "⚡ Gained experience from working in the industry and doing research",
       ],
       softwareSkills: [
+        {
+          skillName: "Langchain",
+          imageSrc: "langchain.png",
+        },
+        {
+          skillName: "AWS Bedrock",
+          imageSrc: "bedrock.png",
+        },
+        {
+          skillName: "Pinecone Vector Database",
+          imageSrc: "pinecone.png",
+        },
+        {
+          skillName: "Chroma Vector Database",
+          imageSrc: "chroma.png",
+        },
         {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
@@ -111,13 +110,6 @@ const skills = {
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
           style: {
@@ -126,8 +118,20 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
+          skillName: "Deep Learning",
           imageSrc: "deeplearning_ai_logo.png",
+        },
+        {
+          skillName: "scikit-learn",
+          imageSrc: "scikit.png",
+        },
+        {
+          skillName: "Plotly",
+          imageSrc: "plotly.png",
+        },
+        {
+          skillName: "Seaborn",
+          imageSrc: "seaborn.png",
         },
       ],
     },
@@ -135,11 +139,67 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building full stack applications and mobile applications using various stacks and technologies",
+        "⚡ Proficient in building backend applications using FastAPI, Express. Also, have experience in building RESTful APIs",
+        "⚡ Proficient in understand the requirements of the product and building the product from scratch",
+        "⚡ Experience with working on projects affecting thousands of users",
+        "⚡ Experience in understanding different APIs, GraphQL, and building scalable applications",
+        "⚡ Experience gained from industry, research work and hackathons",
       ],
       softwareSkills: [
+        {
+          skillName: "FastAPI",
+          imageSrc: "fastapi.png",
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          imageSrc: "typescript.png",
+        },
+        {
+          skillName: "React and React Native",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "ExpressJS",
+          imageSrc: "expressjs.png",
+        },
+        {
+          skillName: "Streamlit",
+          imageSrc: "streamlit.png",
+        },
+        {
+          skillName: "Kotlin",
+          imageSrc: "kotlin.png",
+        },
+        {
+          skillName: "NextJS",
+          imageSrc: "nextjs.png",
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -154,73 +214,18 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
       ],
     },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Experience working on multiple cloud platforms, learning new tools and technologies",
+        "⚡ Hosting and maintaining websites and databases on different cloud platforms",
+        "⚡ Building scalable and highly available cloud infrastructure for fast and reliable services",
+        "⚡ Experience with full end to end service, from authentication to database management",
+        "⚡ Various projects deployed handling thousands of requests",
+        "⚡ Various projects deployed handling capable of handling 100+ users at a time",
       ],
       softwareSkills: [
         {
@@ -238,25 +243,8 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
           skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
+          imageSrc: "firebase.webp",
         },
         {
           skillName: "MongoDB",
@@ -266,6 +254,10 @@ const skills = {
           },
         },
         {
+          skillName: "SQL",
+          imageSrc: "sql.png",
+        },
+        {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
@@ -273,51 +265,65 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          skillName: "AWS Cognito",
+          imageSrc: "cognito.png",
         },
+        {
+          skillName: "AWS Lambda",
+          imageSrc: "lambda.png",
+        },
+        {
+          skillName: "AWS Amplify",
+          imageSrc: "amplify.svg",
+        },
+        {
+          skillName: "AWS DynamoDB",
+          imageSrc: "dynamodb.svg",
+        },
+        {
+          skillName: "AWS Simple Storage Service",
+          imageSrc: "s3.svg",
+        },
+        {
+          skillName: "Apache HTTP Server",
+          imageSrc: "apache.svg",
+        },
+        {
+          skillName: "Auth0",
+          imageSrc: "auth0.svg",
+        },
+
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "Hobbies",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ I love to contribute to the community, so I work as a local guide on Google Maps",
+        "⚡ I am always up for a game of Ping Pong, games on Xbox and love biking",
+        "⚡ I am a F1 nerd, who wakes up at odd hours to watch races and keep up with the latest news",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
+          skillName: "PingPong/Table Tennis",
+          imageSrc: "pingpong.png",
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
+          skillName: "Formula 1",
+          imageSrc: "f1.png",
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
+          skillName: "Biking",
+          imageSrc: "bike.svg",
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
+          skillName: "Xbox",
+          imageSrc: "xbox.png",
         },
+        {
+          skillName: "Google Maps Local Guide",
+          imageSrc: "googleguide.png",
+        }
       ],
     },
   ],
@@ -326,54 +332,6 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
   ],
 };
 

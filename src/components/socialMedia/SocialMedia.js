@@ -13,25 +13,44 @@ const IconWrapper = styled.span`
   }
 `;
 
-export default function socialMedia(props) {
+const ImageWrapper = styled.span`
+  img {
+    background-color: ${(props) => props.backgroundColor};
+    padding: 8px;
+    border-radius: 50%;
+  }
+  &:hover img {
+    background-color: ${({ theme }) => theme.text};
+    transition: 0.3s ease-in;
+  }
+`;
+
+export default function SocialMedia(props) {
   return (
     <div className="social-media-div">
-      {socialMediaLinks.map((media, i) => {
-        return (
-          <a
-            key={i}
-            href={media.link}
-            className={`icon-button`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+      {socialMediaLinks.map((media, i) => (
+        <a
+          key={i}
+          href={media.link}
+          className="icon-button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {media.fontAwesomeIcon ? (
             <IconWrapper {...media} {...props}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>
             </IconWrapper>
-            {/* <span></span> */}
-          </a>
-        );
-      })}
+          ) : media.imageSrc ? (
+            <ImageWrapper {...media} {...props}>
+              <img
+                className="skill-image"
+                src={require(`../../assets/images/${media.imageSrc}`)}
+                alt={media.name || "social media icon"}
+              />
+            </ImageWrapper>
+          ) : null}
+        </a>
+      ))}
     </div>
   );
 }
