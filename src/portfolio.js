@@ -524,7 +524,7 @@ const experience = {
           title: "Student Leader",
           company: "Virginia Tech",
           company_url: "https://www.vt.edu/",
-          logo_path: "vt.png",
+          logo_path: "vtsmall.png",
           duration: "August 2023 - May 2024",
           location: "Blacksburg, USA",
           description:
@@ -540,7 +540,7 @@ const experience = {
           title: "Mathematics Tutor",
           company: "Virginia Tech",
           company_url: "https://www.vt.edu/",
-          logo_path: "vt.png",
+          logo_path: "vtsmall.png",
           duration: "August 2023 - March 2024",
           location: "Blacksburg, USA",
           description:
