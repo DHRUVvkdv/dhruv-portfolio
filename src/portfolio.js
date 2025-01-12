@@ -484,29 +484,29 @@ const degrees = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Leadership Experience",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked in the industry and have worked in research lab at my university, among other roles which have helped me develop my Computer Science skills. During my experience I have worked various Leadership and STEM roles which have helped me develop my soft skills.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Work Experience",
       work: true,
       experiences: [
         {
-          title: "Machine Learning Engineer",
-          company: "TikTok Inc.",
-          company_url: "https://www.tiktok.com/en/",
-          logo_path: "tiktok_logo.png",
-          duration: "June 2023 - Present",
-          location: "San Jose, CA, USA",
+          title: "Solution Architect Intern",
+          company: "Contentstack",
+          company_url: "https://www.contentstack.com/",
+          logo_path: "contentstack.png",
+          duration: "September 2024 - November 2024",
+          location: "Remote, USA",
           description:
-            "Improving ads ranking models on the core TikTok product. Experience working on modeling two-tower architectures like DeepFM, Wide & deep learning, etc. Working on Large Language Models (LLM) pretraining and Large Multi-modal Model (LMM) finetuning strategies.",
+            "Worked on an internal project aimed to help Solution Architect and Sales Engineers. Engineered embedding pipeline with 40x speedup. Implemented Worker threads for parallel processing reducing the processing time from 135s → 9.3s. Implemented batch processing for 50000+ records ensuring robust performance with error handling and logging.",
           color: "#000000",
         },
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
+          title: "Undergraduate Research Assistant & Software Engineering Intern",
+          company: "Learning Enhanced Watershed Assessment System (LEWAS) Lab, Virginia Tech",
           company_url: "https://legatohealthtech.com/",
           logo_path: "legato_logo.png",
           duration: "June 2020 - Aug 2021",
@@ -540,7 +540,7 @@ const experience = {
       ],
     },
     {
-      title: "Internships",
+      title: "Leadership Experience",
       experiences: [
         {
           title: "Machine Learning Intern",
@@ -579,7 +579,7 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "STEM Experience",
       experiences: [
         {
           title: "Google Explore ML Facilitator",
