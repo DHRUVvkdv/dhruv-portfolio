@@ -137,7 +137,7 @@
       ]
     },
     {
-      "id": "1",
+      "id": "5",
       "name": "AI-powered teaching assistant",
       "description": "A teacching assistant made with AI",
       "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
@@ -160,6 +160,39 @@
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736707055/Portfolio/videos/projects/rhythmandrise_buq0nj.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736707074/Portfolio/videos/projects/thumbnailrhythmandrise.png",
+      "impact": [
+        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
+        "•of XYZ Hacbgcdfjksl;kathon"
+      ],
+      "features": [
+        "100+ concurrent users",
+        "Live display of topics"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "AI-powered teaching assistant",
+      "description": "A teacching assistant made with AI",
+      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
+      "date": "March 2021",
+      "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
+      "live": "https://mapability.vercel.app/",
+      "languages": [
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ],
+      "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736743793/Portfolio/videos/projects/aitashortened_ndm8cv.mov",
+      "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736743641/Portfolio/videos/projects/thumbnailai.png",
       "impact": [
         "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
         "•of XYZ Hacbgcdfjksl;kathon"

@@ -623,8 +623,8 @@ const academicProjectsHeader = {
         }
       ],
       images: [
-        "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711470526/ktyybk4sykenps3omzgf.jpg",
-        "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"
+        "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736743441/Portfolio/videos/academicprojects/cs3754vtmarketplace_c0wsrw.mp4",
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736711261/Portfolio/videos/projects/thumbnail_CS_3754_vtmarketplace.png"
       ],
       github: "https://github.com/yourusername/ecommerce",
       demo: "https://demo-ecommerce.com"

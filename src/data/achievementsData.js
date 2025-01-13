@@ -3,10 +3,10 @@
 export const achievementsData = [
     {
         id: 1,
-        title: "First Place - University Hackathon",
+        title: "🥇 First Place - Marriott Codefest",
         category: "hackathon",
-        date: "March 2024",
-        description: "Led a team of 4 to develop an innovative solution for sustainable urban mobility, creating a real-time public transportation tracking system.",
+        date: "October 2024",
+        description: "Made a full stack web app and mobile app for hotel booking, management and customer service that revolutionizes the hospitality industry in a 48-hour hackathon.",
         images: [
             "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1711283880/wgpnkcaeffwagtetpfkd.jpg"
