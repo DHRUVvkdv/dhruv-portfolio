@@ -8,18 +8,20 @@ export const achievementsData = [
         date: "October 2024",
         description: "Made a full stack web app and mobile app for hotel booking, management and customer service that revolutionizes the hospitality industry in a 48-hour hackathon.",
         images: [
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1711283880/wgpnkcaeffwagtetpfkd.jpg"
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736753198/Portfolio/achievements/marriottcodefest/EBC233EE-B8CA-4242-AB1A-706D362CBF93_loxwjh.jpg",
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736753208/Portfolio/achievements/marriottcodefest/1729879374067_hjbdiz.jpg",
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736753266/Portfolio/achievements/marriottcodefest/Screenshot_2024-11-04_at_4.03.36_PM_t8zwsy.png",
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736661966/Portfolio/videos/projects/thumbnaildeskbychariott.png"
         ],
         impact: [
-            "Won $5000 prize money",
+            "Invited to present at Marriott HQ",
             "Featured in university newsletter",
             "Project deployed to production"
         ],
         links: {
-            certificate: "url-to-certificate",
-            project: "url-to-github",
-            presentation: "url-to-slides"
+            project: "https://github.com/DHRUVvkdv/chariott",
+            website: "https://main.d3lkr48qn04k1o.amplifyapp.com/",
+            newsletter: "https://news.vt.edu/articles/2024/11/pamplin-code-the-future.html"
         }
     },
     {
