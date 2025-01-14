@@ -33,9 +33,12 @@ export const achievementsData = [
             "Project deployed to production"
         ],
         links: {
-            project: "https://github.com/DHRUVvkdv/chariott",
+            newsletter: "https://news.vt.edu/articles/2024/11/pamplin-code-the-future.html",
+            marriottPost: "https://www.linkedin.com/posts/naveenmanga_empowering-and-inspiringtomorrowsinnovators-activity-7268827910898167808-U5N_?utm_source=share&utm_medium=member_desktop",
+            code: "https://github.com/DHRUVvkdv/chariott",
             website: "https://main.d3lkr48qn04k1o.amplifyapp.com/",
-            newsletter: "https://news.vt.edu/articles/2024/11/pamplin-code-the-future.html"
+            video: "https://youtu.be/LPyrAjl91Ew"
+
         }
     },
     {
@@ -54,8 +57,9 @@ export const achievementsData = [
         ],
         links: {
             website: "https://mapability.dhruvv.dev/",
+            video: "https://youtu.be/vk0lNKuEJ_s",
             code: "https://github.com/DHRUVvkdv/mapability-backend",
-            devpost: "https://devpost.com/software/mapability-16m47i"
+            devpost: "https://devpost.com/software/mapability-16m47i",
         }
     },
     {
@@ -63,7 +67,7 @@ export const achievementsData = [
         title: "Presented at 2024 Virginia Tech Undergraduate Research Conference",
         category: "research",
         date: "July 2024",
-        description: "Presented 2 projects at the 2024 Virginia Tech Undergraduate Research Conference, showcasing the use if Artificial Intelliegence in education environmental lab enhancements.",
+        description: "Presented 2 projects at the 2024 Virginia Tech Undergraduate Research Conference, showcasing the use of Artificial Intelliegence in education environmental lab enhancements.",
         images: [
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736815799/Portfolio/achievements/summerresearch/IMG_3529_xu5kcf.jpg",
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736815816/Portfolio/achievements/summerresearch/IMG_4037_giqjhc.jpg",
@@ -129,8 +133,8 @@ export const achievementsData = [
             "Deployed the project to production"
         ],
         links: {
-            video: "https://www.youtube.com/watch?v=lIWEmkGtWFI",
             website: "https://rhythmandrise.dhruvv.dev/",
+            video: "https://www.youtube.com/watch?v=lIWEmkGtWFI",
             code: "https://github.com/DHRUVvkdv/Hack-Violet-2024",
             devpost: "https://devpost.com/software/not-decided-yet-8fk4er",
         }
@@ -150,22 +154,18 @@ export const achievementsData = [
         title: "🏆 Winner - Capital One: Best Financial Hack (VTHacks 11) - VT",
         category: "hackathon",
         date: "September 2023",
-        description: "Received first place in the best webhack using React category at HackViolet 2024 by Peraton for creating a web app that helps women to have proper diet and exercise during different menstrual phases.",
+        description: "Received first place in the financial category at VTHacks 11 for creating a web app that simulates the stock market and allows students to learn about investing without risking real money.",
         images: [
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736819669/Portfolio/achievements/hackviolet2024/DSC_0317-Enhanced-NR_zbqpaw.jpg",
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736819703/Portfolio/achievements/hackviolet2024/DSC_0634-Enhanced-NR_c3af8w.jpg",
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736819744/Portfolio/achievements/hackviolet2024/hackvioletcertificate_go6yqi.jpg"
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736834869/Portfolio/achievements/vthacks23/vthacks2_l0i0z3.jpg",
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736834867/Portfolio/achievements/vthacks23/vthacks3_thojyi.jpg",
         ],
         impact: [
-            "Implemented a web app to help women with diet and exercise during menstrual phases",
-            "Coded the project in 24 hours",
-            "Deployed the project to production"
+            "First place in the financial category",
+            "First winninng experience in a hackathon",
         ],
         links: {
-            video: "https://www.youtube.com/watch?v=lIWEmkGtWFI",
-            website: "https://rhythmandrise.dhruvv.dev/",
-            code: "https://github.com/DHRUVvkdv/Hack-Violet-2024",
             devpost: "https://devpost.com/software/stonks-simulator-7hvpxe",
+            code: "https://github.com/DHRUVvkdv/VTHacks23",
         }
     },
     {
@@ -173,22 +173,17 @@ export const achievementsData = [
         title: "🏆 Winner - MLH: Auth0 - Best Use of Auth0 (VTHacks 11) - VT",
         category: "hackathon",
         date: "September 2023",
-        description: "Received first place in the best webhack using React category at HackViolet 2024 by Peraton for creating a web app that helps women to have proper diet and exercise during different menstrual phases.",
+        description: "Received first place in the financial category at VTHacks 11 for creating a web app that simulates the stock market and allows students to learn about investing without risking real money.",
         images: [
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736819669/Portfolio/achievements/hackviolet2024/DSC_0317-Enhanced-NR_zbqpaw.jpg",
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736819703/Portfolio/achievements/hackviolet2024/DSC_0634-Enhanced-NR_c3af8w.jpg",
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736819744/Portfolio/achievements/hackviolet2024/hackvioletcertificate_go6yqi.jpg"
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736834870/Portfolio/achievements/vthacks23/vthacks1_jvfwfb.jpg",
         ],
         impact: [
-            "Implemented a web app to help women with diet and exercise during menstrual phases",
-            "Coded the project in 24 hours",
-            "Deployed the project to production"
+            "First place in the Auth0 category",
+            "First winninng experience in a hackathon",
         ],
         links: {
-            video: "https://www.youtube.com/watch?v=lIWEmkGtWFI",
-            website: "https://rhythmandrise.dhruvv.dev/",
-            code: "https://github.com/DHRUVvkdv/Hack-Violet-2024",
             devpost: "https://devpost.com/software/stonks-simulator-7hvpxe",
+            code: "https://github.com/DHRUVvkdv/VTHacks23",
         }
     },
     {

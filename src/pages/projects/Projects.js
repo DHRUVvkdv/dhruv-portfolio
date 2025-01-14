@@ -10,7 +10,7 @@ import {
   greeting,
   projectsHeader,
   publicationsHeader,
-  publications,
+  // publications,
 } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
@@ -64,7 +64,7 @@ class Projects extends Component {
           theme={theme}
         />
 
-        {publications && publications.data && publications.data.length > 0 && (
+        {/* {publications && publications.data && publications.data.length > 0 && (
           <div className="basic-projects">
             <Fade bottom duration={2000} distance="40px">
               <div className="publications-heading-div">
@@ -93,7 +93,7 @@ class Projects extends Component {
             publications.data.map((pub) => (
               <PublicationCard key={pub.id} pub={pub} theme={theme} />
             ))}
-        </div>
+        </div> */}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

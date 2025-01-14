@@ -566,31 +566,31 @@ const publicationsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publications = {
-  data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
-  ],
-};
+// const publications = {
+//   data: [
+//     {
+//       id: "neuro-symbolic-sudoku-solver",
+//       name: "Neuro-Symbolic Sudoku Solver",
+//       createdAt: "2023-07-02T00:00:00Z",
+//       description: "Paper published in KDD KiML 2023",
+//       url: "https://arxiv.org/abs/2307.00653",
+//     },
+//     {
+//       id: "mdp-diffusion",
+//       name: "MDP-Diffusion",
+//       createdAt: "2023-09-19T00:00:00Z",
+//       description: "Blog published in Paperspace",
+//       url: "https://blog.paperspace.com/mdp-diffusion/",
+//     },
+//     {
+//       id: "consistency-models",
+//       name: "Consistency Models",
+//       createdAt: "2023-10-12T00:00:00Z",
+//       description: "Blog published in Paperspace",
+//       url: "https://blog.paperspace.com/consistency-models/",
+//     },
+//   ],
+// };
 
 // Academic Projects Page
 const academicProjectsHeader = {
@@ -629,89 +629,6 @@ const academicProjectsHeader = {
       github: "https://github.com/yourusername/ecommerce",
       demo: "https://demo-ecommerce.com"
     },
-    {
-      name: "Customer Segmentation Analysis",
-      semester: "Spring 2023",
-      course: "Data Mining",
-      description: "Analyzed customer behavior data to identify key market segments using machine learning techniques.",
-      outcomes: [
-        "Applied K-means clustering algorithm",
-        "Created interactive data visualizations",
-        "Performed statistical analysis of segments"
-      ],
-      "languages": [
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ],
-      images: ["https://res.cloudinary.com/dru4ekf2q/video/upload/v1736185134/Portfolio/30_June_2021_4_e13vwl.mp4", "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"],
-      thumbnail: "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
-      github: "https://github.com/yourusername/customer-segmentation"
-    },
-    {
-      name: "Customer Segmentation Analysis",
-      semester: "Spring 2023",
-      course: "Data Mining",
-      description: "Analyzed customer behavior data to identify key market segments using machine learning techniques.",
-      outcomes: [
-        "Applied K-means clustering algorithm",
-        "Created interactive data visualizations",
-        "Performed statistical analysis of segments"
-      ],
-      "languages": [
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ],
-      images: ["https://res.cloudinary.com/dru4ekf2q/video/upload/v1736185134/Portfolio/30_June_2021_4_e13vwl.mp4", "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"],
-      thumbnail: "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg",
-      github: "https://github.com/yourusername/customer-segmentation"
-    },
-    {
-      name: "Customer Segmentation Analysis",
-      semester: "Spring 2023",
-      course: "Data Mining",
-      description: "Analyzed customer behavior data to identify key market segments using machine learning techniques.",
-      outcomes: [
-        "Applied K-means clustering algorithm",
-        "Created interactive data visualizations",
-        "Performed statistical analysis of segments"
-      ],
-      "languages": [
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ],
-      images: ["https://res.cloudinary.com/dru4ekf2q/video/upload/v1736185134/Portfolio/30_June_2021_4_e13vwl.mp4", "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711268052/samples/upscale-face-1.jpg"],
-      thumbnail: "https://res.cloudinary.com/dru4ekf2q/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1711284211/hntg7xcxdyuj3w9w1pmk.jpg"
-    }
   ]
 };
 
@@ -760,6 +677,6 @@ export {
   projectsHeader,
   academicProjectsHeader,
   publicationsHeader,
-  publications,
+  // publications,
   contactPageData,
 };

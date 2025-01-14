@@ -128,7 +128,8 @@ const Achievements = ({ theme }) => {
 
     const stats = {
         hackathons: achievementsData.filter(a => a.category === 'hackathon').length,
-        research: achievementsData.filter(a => a.category === 'research').length,
+        // research: achievementsData.filter(a => a.category === 'research').length,
+        research: 2, // Hardcoded because I have only one card for two research project
         certificates: achievementsData.filter(a => a.category === 'certificate').length,
         awards: achievementsData.filter(a => a.category === 'award').length
     };
