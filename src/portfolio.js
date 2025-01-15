@@ -494,7 +494,7 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Solution Architect Intern",
+          title: "Solutions Architect Intern",
           company: "Contentstack",
           company_url: "https://www.contentstack.com/",
           logo_path: "contentstack.png",
@@ -505,14 +505,14 @@ const experience = {
           color: "#000000",
         },
         {
-          title: "Undergraduate Research Assistant & Software Engineering Intern",
+          title: "Software Engineering Intern & Undergraduate Research Assistant",
           company: "Learning Enhanced Watershed Assessment System (LEWAS) Lab, Virginia Tech",
-          company_url: "https://legatohealthtech.com/",
+          company_url: "https://vt.edu/",
           logo_path: "lewas.png",
-          duration: "June 2020 - Aug 2021",
+          duration: "March 2024 - Present",
           location: "Blacksburg, USA",
           description:
-            "",
+            "Engineered AI-powered RAG chatbot for LEWAS Lab, processing 500+ documents from Google Drive and handling 500+ queries from 150+ users, boosting retrieval efficiency by 85% using AWS services. Designed a scalable full-stack system supporting 100+ concurrent users, harnessing AWS Bedrock, Claude 3, andLambda to enhance search precision and reduce cloud costs by 55%.",
           color: "#0879bf",
         },
       ],
@@ -521,14 +521,25 @@ const experience = {
       title: "Leadership Experience",
       experiences: [
         {
-          title: "Student Leader",
+          title: "Residential Well Being Student Leader",
           company: "Virginia Tech",
           company_url: "https://www.vt.edu/",
           logo_path: "vtsmall.png",
           duration: "August 2023 - May 2024",
           location: "Blacksburg, USA",
           description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+            "Served as an Student Leader for 200+ students in the Innovate Living Learning Community (LLC) in the Creativtiy and Innovation District (CID). Organised and participated in 10+ fully organised events and activities for the LLC. Helped in the transition of the students to the university and helped them in their academic and personal growth.",
+          color: "#000000",
+        },
+        {
+          title: "Residential Advisor",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "June 2023 - August 2023",
+          location: "Blacksburg, USA",
+          description:
+            "In my role, I had the privilege of guiding students through the critical transition into college life, particularly through my involvement in two pivotal programs: the Student Transition Engineering Program (STEP) and the Clark Scholars initiative. As a Residential Advisor for both programs, I played a central role in easing the adjustment process for incoming students, facilitating their integration into the Virginia Tech community.",
           color: "#000000",
         },
         {
@@ -539,7 +550,7 @@ const experience = {
           duration: "August 2021 - June 2022",
           location: "Pilani, India",
           description:
-            "Helped organize various events and activities in the school. Led the student council and helped in organizing various events and activities in the school.",
+            "Headed residential highscool with 500+ students. Participated in developing opportunities for students for overall devleopment of the students. Developing activites Helped organize various events and activities in the school. Led the student council and helped in organizing various events and activities in the school.",
           color: "#000000",
         },
       ],
@@ -548,6 +559,17 @@ const experience = {
       title: "STEM Experience",
       experiences: [
         {
+          title: "Undergraduate Teaching Assistant",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "August 2023 - May 2024",
+          location: "Blacksburg, USA",
+          description:
+            "During my time as an undergraduate teaching assistant for the Department of Engineering Education, I had the privilege of assisting two different classes: ENGE 1215 – Foundations of Engineering I in fall 2023, and ENGE 1216 – Foundations of Engineering II in Spring 2024, totaling 72 students. My role extended beyond traditional TA duties as I actively supported students in exploring different majors and determining the right fit for them. I facilitated coding lectures in both courses, tailoring my teaching approach to meet the diverse needs of the students. In ENGE 1215, I led a session on MATLAB to help students grasp the basics of programming by coding a program that solves an engineering problem. For ENGE 1216, I taught two sections on the Scratch programming language, covering fundamental programming concepts and algorithms.",
+          color: "#4285F4",
+        },
+        {
           title: "Mathematics Tutor",
           company: "Virginia Tech",
           company_url: "https://www.vt.edu/",
@@ -555,7 +577,56 @@ const experience = {
           duration: "August 2023 - March 2024",
           location: "Blacksburg, USA",
           description:
-            "",
+            "During my time as a Mathematics Tutor at Virginia Tech, spanning from August 23 to March 24, I had the opportunity to tutor a wide range of subjects, contributing to my growth and proficiency in various mathematical disciplines. Among the courses I tutored were MATH 1025 (Elementary Calculus), MATH 1225 (Calculus of a Single Variable), MATH 2534 (Introduction to Discrete Mathematics), MATH 1524 (Business Calculus), MATH 2114 (Introduction to Linear Algebra), and MATH 1226 (Calculus of a Single Variable II). Teaching these diverse subjects not only strengthened my own understanding of the material but also enhanced my ability to explain complex concepts effectively.",
+          color: "#4285F4",
+        },
+        {
+          title: "Mathematics Grader",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "January 2024 - May 2024",
+          location: "Blacksburg, USA",
+          description:
+            "During the spring semester of 2024 at Virginia Tech, I served as a grader for Linear Algebra (MATH 2114), a role that afforded me valuable insights into the learning process and the importance of providing constructive feedback to students. In this capacity, my primary responsibility was to grade homework assignments, a task I approached with a focus on delivering detailed feedback aimed at fostering student comprehension and growth.",
+          color: "#4285F4",
+        },
+      ],
+    },
+    {
+      title: "Other Experience",
+      experiences: [
+        {
+          title: "Ware Lab Tour Coordinator",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "July 2023 - August 2023",
+          location: "Blacksburg, USA",
+          description:
+            "In my role, I was entrusted with the task of making the Ware Lab known and accessible to students, families, and visitors alike. Through vivid and detailed tours, I offered an immersive experience that not only highlights the state-of-the-art technologies housed within the lab but also underscores the transformative impact of experiential learning on the academic and professional development of engineering students.",
+          color: "#000000",
+        },
+        {
+          title: "Program Assistant",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "June 2023 - July 2023",
+          location: "Blacksburg, USA",
+          description:
+            "During my tenure at the Center for the Enhancement of Engineering Diversity, I played a crucial role in supporting various summer camps, with a primary focus on the Black Engineering Excellence at Virginia Tech (BEE VT) program. Serving as a liaison between the program and different departments at Virginia Tech, I facilitated engaging learning sessions to broaden students' understanding of the diverse majors available at the university.",
+          color: "#4285F4",
+        },
+        {
+          title: "Student Employee, Dining Services",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "October 2022 - July 2023",
+          location: "Blacksburg, USA",
+          description:
+            "As a student employee in dining services, I've honed my ability to multitask and thrive in a dynamic environment. From serving food and washing dishes to engaging with customers, my role has been diverse, fostering effective communication skills and a customer-centric approach.",
           color: "#4285F4",
         },
       ],
