@@ -531,6 +531,17 @@ const experience = {
             "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
           color: "#000000",
         },
+        {
+          title: "President",
+          company: "Birla School Pilani",
+          company_url: "https://www.birlaschoolpilani.edu.in/",
+          logo_path: "bsp.png",
+          duration: "August 2021 - June 2022",
+          location: "Pilani, India",
+          description:
+            "Helped organize various events and activities in the school. Led the student council and helped in organizing various events and activities in the school.",
+          color: "#000000",
+        },
       ],
     },
     {
