@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A motivated individual who is always looking to learn and grow from every opportunity. I am a passionate learner and always looking to learn new technologies. ",
   resumeLink:
-    "https://drive.google.com/file/d/1sxGYxSx9Hgg6p1nYTDelExt_Pv6CGCBU/view?usp=sharing",
+    "https://drive.google.com/file/d/1spvCZorz8RT8N5M95NUgmsgIFnG0_nbL/view?usp=sharing",
   portfolio_repository: "https://github.com/DHRUVvkdv/dhruv-portfolio",
   githubProfile: "https://github.com/DHRUVvkdv",
 };
