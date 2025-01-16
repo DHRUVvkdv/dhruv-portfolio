@@ -371,7 +371,7 @@ const degrees = {
 // const certifications = {
 //   certifications: [
 //     {
-//       title: "Machine Learning",
+//       title: "CS 4824: Machine Learning",
 //       subtitle: "- Andrew Ng",
 //       logo_path: "stanford_logo.png",
 //       certificate_link:
@@ -681,35 +681,253 @@ const academicProjectsHeader = {
   avatar_image_path: "projects_image.svg",
   projects: [
     {
-      name: "E-Commerce Website",
-      semester: "Fall 2023",
-      course: "Web Development II",
-      description: "Built a full-stack e-commerce platform with user authentication, shopping cart, and payment integration.",
-      outcomes: [
-        "Implemented secure user authentication system",
-        "Developed real-time shopping cart functionality",
-        "Integrated Stripe payment gateway"
+      "name": "VT Marketplace",
+      "semester": "Fall 2023",
+      "course": "CS 3754: Cloud Software Development",
+      "description": "Built a full-stack e-commerce platform for Virginia Tech students featuring dual listing types (fixed-price and auction-based), secure authentication, and real-time image uploads.",
+      "outcomes": [
+        "Built JWT authentication with 24-hour token expiration",
+        "Created RESTful API for users, listings, and bidding",
+        "Designed React frontend with category-based filtering",
+        "Built MongoDB schemas for auction and fixed-price items",
+        "Integrated Cloudinary for secure image upload and storage",
+        "Implemented real-time bid tracking system with price validation"
       ],
       "languages": [
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
         },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb"
+        }
+      ],
+      images: [
+        "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736743441/Portfolio/videos/academicprojects/cs3754vtmarketplace_c0wsrw.mp4",
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736982963/Portfolio/videos/academicprojects/thumbnailCS3754.png"
+      ],
+      github: "https://github.com/yousofalgburi/vt-marketplace",
+    },
+    {
+      name: "Memory-Managed Database System",
+      semester: "Fall 2024",
+      course: "CS3114/5040: Data Structures & Algorithms",
+      description: "Developed a memory-efficient database system implementing custom memory management and hash table data structures for storing and retrieving variable-length records.",
+      outcomes: [
+        "Memory pool using first-fit allocation for 50% utilization",
+        "Created hash table supporting quadratic probing, 2x expansion",
+        "Achieved 90%+ mutation coverage in JUnit test suite",
+        "Built modular system for memory, data access, commands",
+        "Implemented dynamic block merging for memory optimization",
+        "Developed serialization system for variable-length records"
+      ],
+      languages: [
+        {
+          name: "Java",
+          iconifyClass: "logos-java"
+        },
+        {
+          name: "JUnit",
+          iconifyClass: "simple-icons:junit5"
+        }
+      ],
+      images: [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736984514/Portfolio/videos/academicprojects/imagena_c4qt7w.png"
+      ]
+    },
+    {
+      "name": "Water Quality ML Anomaly Detection",
+      "semester": "Fall 2024",
+      "course": "CS 4824: Machine Learning",
+      "description": "Built LSTM-based anomaly detection system analyzing 12 water quality parameters with 92% accuracy in identifying sensor faults and environmental anomalies.",
+      "outcomes": [
+        "Processed 50,000+ readings across 12 environmental parameters",
+        "Achieved 94% accuracy using 2-layer LSTM with 32-64 units",
+        "Reduced false positives 65% through adaptive thresholding",
+        "Automated pipeline handling 12 different measurement units"
+      ],
+      "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "TensorFlow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
         }
       ],
       images: [
-        "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736743441/Portfolio/videos/academicprojects/cs3754vtmarketplace_c0wsrw.mp4",
-        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736711261/Portfolio/videos/projects/thumbnail_CS_3754_vtmarketplace.png"
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736983396/Portfolio/videos/academicprojects/lewasanamoly/mlproject1_xjlkgg.png",
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736983371/Portfolio/videos/academicprojects/lewasanamoly/mlproject4.png",
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736983396/Portfolio/videos/academicprojects/lewasanamoly/mlproject3_m3dshk.png"
       ],
-      github: "https://github.com/yourusername/ecommerce",
-      demo: "https://demo-ecommerce.com"
+      demo: "https://colab.research.google.com/drive/1hZ-qCVYp-jBrHQMsOQHOOfJJYXW2fxq4?usp=sharing",
+    },
+    {
+      name: "Low-Level Data Struct. Implementation",
+      semester: "Fall 2024",
+      course: "CS 2506: Computer Organization",
+      description: "Implemented a complete linked list system and stack operations in RISC-V assembly, focusing on 32-bit architecture, memory management, and low-level programming concepts.",
+      outcomes: [
+        "Built 6 core linked list procedures with dynamic memory allocation",
+        "Implemented 4-byte aligned memory management system",
+        "Developed stack management across multiple procedures",
+        "Created system for handling non-contiguous memory allocation"
+      ],
+      languages: [
+        {
+          name: "RISC-V",
+          iconifyClass: "simple-icons:riscv"
+        }
+      ],
+      images: [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736984514/Portfolio/videos/academicprojects/imagena_c4qt7w.png"
+      ]
+    },
+    {
+      "name": "Income Prediction Model",
+      "semester": "Fall 2024",
+      "course": "CS 4824: Machine Learning",
+      "description": "Developed a logistic regression model using census data with 10,000 data points to predict income levels through optimization and feature engineering.",
+      "outcomes": [
+        "Built gradient descent optimizer with 40-50 epochs",
+        "Enhanced model accuracy through 25+ engineered features",
+        "Achieved 80.6% prediction accuracy via hyperparameter tuning"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736984514/Portfolio/videos/academicprojects/imagena_c4qt7w.png"
+      ],
+    },
+    {
+      "name": "Kernelized Perceptron Implementation",
+      "semester": "Fall 2024",
+      "course": "CS 4824: Machine Learning",
+      "description": "Built a Kernelized Perceptron classifier for binary digit recognition, achieving 85%+ accuracy using polynomial and Gaussian kernels.",
+      "outcomes": [
+        "Implemented linear, polynomial, and Gaussian kernels",
+        "Improved accuracy from 64% to 85% with kernel methods",
+        "Analyzed performance across 20 training iterations",
+        "Created data visualizations for model analysis"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "NumPy",
+          "iconifyClass": "logos-numpy"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736984514/Portfolio/videos/academicprojects/imagena_c4qt7w.png"
+      ]
+    },
+    {
+      "name": "C4.5 Decision Tree Implementation",
+      "semester": "Fall 2024",
+      "course": "CS 4824: Machine Learning",
+      "description": "Built a C4.5 decision tree classifier from scratch achieving 76.3% accuracy through optimization of tree depth and threshold selection across 32 features.",
+      "outcomes": [
+        "Optimized tree depth between 5-50 levels for best performance",
+        "Processed 20,000+ email samples for spam classification",
+        "Achieved 76.3% validation accuracy through threshold tuning",
+        "Implemented binary splitting with information gain optimization"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736984514/Portfolio/videos/academicprojects/imagena_c4qt7w.png"
+      ]
+    },
+    {
+      "name": "CNN Architecture Analysis",
+      "semester": "Fall 2024",
+      "course": "CS 4824: Machine Learning",
+      "description": "Analyzed CNN performance on CIFAR-10 dataset through comparative study of neural architectures, achieving 78.5% accuracy with optimized configurations.",
+      "outcomes": [
+        "ReLU activation achieved 75.7% vs Sigmoid's 43.5% accuracy",
+        "Improved model performance by 25% using dropout layers",
+        "3x3 filters achieved 76.3% vs 71.9% with 5x5 filters",
+        "Tested RMSprop, Adam, Adagrad over 25 epochs each"
+      ],
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "TensorFlow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "Keras",
+          "iconifyClass": "simple-icons:keras"
+        }
+      ],
+      "images": [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736984514/Portfolio/videos/academicprojects/imagena_c4qt7w.png"
+      ]
+    },
+    {
+      name: "Graph-Based Music Data Analyzer",
+      semester: "Fall 2024",
+      course: "CS3114/5040: Data Structures & Algorithms",
+      description: "Developed a data analysis system using custom hash tables and graph algorithms to process and analyze relationships between artists and songs from the Million Song database.",
+      outcomes: [
+        "Built extensible hash tables with quadratic probing",
+        "Achieved 90%+ mutation coverage in JUnit tests",
+        "Implemented adjacency lists for graph structure",
+        "Created connected components using Union/Find"
+      ],
+      languages: [
+        {
+          name: "Java",
+          iconifyClass: "logos-java"
+        },
+        {
+          name: "JUnit",
+          iconifyClass: "simple-icons:junit5"
+        }
+      ],
+      images: [
+        "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736984514/Portfolio/videos/academicprojects/imagena_c4qt7w.png"
+      ]
     },
   ]
 };
