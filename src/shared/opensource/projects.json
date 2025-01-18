@@ -54,8 +54,8 @@
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736661635/Portfolio/videos/projects/deskbychariott_khzwy5.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736661966/Portfolio/videos/projects/thumbnaildeskbychariott.png",
       "impact": [
-        "• First place winner of the Marriott Codefest 2024",
-        "• AI enabled insights for operational efficiency"
+        "• Improved hotel operations by 30% and streamlined requests",
+        "• First place winner of the Marriott Codefest 2024"
       ],
       "features": [
         "AI assistance: AI powered insights for operational efficiency and guest satisfaction",
@@ -111,12 +111,16 @@
         {
           "name": "FastAPI",
           "iconifyClass": "devicon:fastapi"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "skill-icons:css"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736661634/Portfolio/videos/projects/chariott_mgv8b7.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736662137/Portfolio/videos/projects/thumbnailchariott_vpggqu.png",
       "impact": [
-        "• Option to switch between hotel chains",
+        "• Increased guest satisfaction by 40% and improved hotel ratings",
         "• Dyslexia mode for visually impaired guests"
       ],
       "features": [
@@ -134,17 +138,17 @@
     },
     {
       "id": "3",
-      "name": "AI-powered teaching assistant",
-      "description": "A teacching assistant made with AI",
-      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
-      "date": "March 2021",
-      "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
-      "live": "https://mapability.vercel.app/",
+      "name": "InstaShop",
+      "description": "Web app which finds shortest path to your groceries",
+      "longDescription": "Have you ever ran back and forth in a grocery store? Worry not! We have implemented collaboration with Target to help you find your groceries and return the shortest path to enter and exit the store.",
+      "date": "October 2023",
+      "tags": [
+        "Web Development",
+        "BFS",
+        "React"
+      ],
+      "url": "https://github.com/DHRUVvkdv/InstaShop",
       "languages": [
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        },
         {
           "name": "Python",
           "iconifyClass": "logos-python"
@@ -152,30 +156,57 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Typescript",
+          "iconifyClass": "devicon:typescript"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "vscode-icons:file-type-tailwind"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "skill-icons:css"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736707259/Portfolio/videos/projects/instashop.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736706508/Portfolio/videos/projects/thumbnailinstashop.png",
       "impact": [
-        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
-        "•of XYZ Hacbgcdfjksl;kathon"
+        "• Reduced processing time from 7min to 1sec (99.76% faster)",
+        "• Using real time data from Target API"
       ],
       "features": [
-        "100+ concurrent users",
-        "Live display of topics"
+        "Real-time inventory checking via Target's Retail API",
+        "Optimized breadth-first search implementation",
+        "Reduced path calculation time from exponential to just seconds",
+        "Digital recreation of store layout using graph data structures",
+        "Item-by-item navigation guidance",
+        "React frontend with TypeScript",
+        "Python backend for algorithmic processing",
+        "Support for varying store layouts"
       ]
     },
     {
       "id": "4",
-      "name": "AI-powered teaching assistant",
-      "description": "A teacching assistant made with AI",
-      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
-      "date": "March 2021",
+      "name": "Mapability",
+      "description": "Web app that helps you find accessible places",
+      "longDescription": "Mapability is a web application that helps users find accessible places. It provides information on wheelchair accessibility, and many other facilities. The app has a map view that displays accessible locations and allows users to filter by category.",
+      "tags": [
+        "Web Development",
+        "Function Calling",
+        "AI"
+      ],
+      "date": "September 2024",
       "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
-      "live": "https://mapability.vercel.app/",
+      "live": "https://mapability.dhruvv.dev/",
       "languages": [
         {
-          "name": "Dockerfile",
+          "name": "Docker",
           "iconifyClass": "simple-icons:docker"
         },
         {
@@ -183,29 +214,67 @@
           "iconifyClass": "logos-python"
         },
         {
+          "name": "FastAPI",
+          "iconifyClass": "devicon:fastapi"
+        },
+        {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "AWS Cognito",
+          "iconifyClass": "logos:aws-cognito"
+        },
+        {
+          "name": "AWS Lambda",
+          "iconifyClass": "logos:aws-lambda"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:nextdotjs"
+        },
+        {
+          "name": "Vercel",
+          "iconifyClass": "devicon:vercel"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "skill-icons:mongodb"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736706366/Portfolio/videos/projects/mapability.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736706442/Portfolio/videos/projects/thumbnailmapability.png",
       "impact": [
-        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
-        "•of XYZ Hacbgcdfjksl;kathon"
+        "• Generated 100+ personalized place recommendations",
+        "• AI powered summary of user reviews for better decision making"
       ],
       "features": [
-        "100+ concurrent users",
-        "Live display of topics"
+        "Scalable serverless architecture",
+        "User driven data collection",
+        "Custom review system allowing users to rate buildings based on specific accessibility metrics",
+        "Aggregated ratings system that combines multiple user reviews into comprehensive accessibility scores",
+        "Dyslexia-friendly text options",
+        "High contrast mode for visual accessibility",
+        "Text-to-speech and speech-to-text capabilities",
+        "AI-powered day planner that creates personalized itineraries",
+        "Custom filtering system with 8 different accessibility criteria",
+        "Building recommendations based on user preferences and needs",
+        "MongoDB backend for efficient data management",
+        "Docker containerization for scalable deployment",
+        "AWS cloud infrastructure integration",
+        "Google Maps API integration for location services",
+        "Function calling technology for structured data processing",
+        "AI-assisted review summarization and aggregation"
       ]
     },
     {
       "id": "5",
-      "name": "AI-powered teaching assistant",
-      "description": "A teacching assistant made with AI",
-      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
-      "date": "March 2021",
+      "name": "Rhytm and Rise",
+      "description": "Web app for balancing diet & exercise during menstrual phases",
+      "longDescription": "Rhythm and Rise is a web application that helps users balance their diet and exercise routines with their menstrual phases. The app has a calendar view that displays the user's cycle and provides affirmations. It has an interactive easy to use UI.",
+      "date": "February 2024",
       "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
-      "live": "https://mapability.vercel.app/",
+      "live": "https://rhythmandrise.dhruvv.dev/",
       "languages": [
         {
           "name": "Dockerfile",

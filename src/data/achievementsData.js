@@ -128,7 +128,7 @@ export const achievementsData = [
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736819744/Portfolio/achievements/hackviolet2024/hackvioletcertificate_go6yqi.jpg"
         ],
         impact: [
-            "Implemented a web app to help women with diet and exercise during menstrual phases",
+            "Implemented a web app for balancing diet & exercise during menstrual phases",
             "Coded the project in 24 hours",
             "Deployed the project to production"
         ],
