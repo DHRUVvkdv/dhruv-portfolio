@@ -272,32 +272,63 @@
       "name": "Rhytm and Rise",
       "description": "Web app for balancing diet & exercise during menstrual phases",
       "longDescription": "Rhythm and Rise is a web application that helps users balance their diet and exercise routines with their menstrual phases. The app has a calendar view that displays the user's cycle and provides affirmations. It has an interactive easy to use UI.",
+      "tags": [
+        "Web Development",
+        "MERN Stack",
+        "Syncfusion"
+      ],
       "date": "February 2024",
       "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
       "live": "https://rhythmandrise.dhruvv.dev/",
       "languages": [
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "React",
+          "iconifyClass": "logos:react"
         },
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Express",
+          "iconifyClass": "devicon:express"
         },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "la:node"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "skill-icons:css"
+        },
+        {
+          "name": "Vercel",
+          "iconifyClass": "devicon:vercel"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "skill-icons:mongodb"
+        },
+        {
+          "name": "Render",
+          "iconifyClass": "simple-icons:render"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736707055/Portfolio/videos/projects/rhythmandrise_buq0nj.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736707074/Portfolio/videos/projects/thumbnailrhythmandrise.png",
       "impact": [
-        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
-        "•of XYZ Hacbgcdfjksl;kathon"
+        "• Ability to track all 4 menstrual phases and their effects",
+        "• Phase specific diet and exercise recommendations"
       ],
       "features": [
-        "100+ concurrent users",
-        "Live display of topics"
+        "Phase-specific workout recommendations across the menstrual cycle",
+        "Support for different dietary preferences (vegan, vegetarian, omnivore)",
+        "Tailored exercise plans for different fitness styles (cardio, strength training, yoga)",
+        "Full-stack MERN application (MongoDB, Express.js, React.js, Node.js)",
+        "Calendar integration using Syncfusion",
+        "Evidence-based approach incorporating women's health research",
+        "User research integration through surveys and feedback",
+        "Comprehensive tracking across all menstrual cycle phases (Menstrual, Follicular, Ovulation, Luteal)"
       ]
     },
     {
@@ -310,16 +341,36 @@
       "live": "https://mapability.vercel.app/",
       "languages": [
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "React",
+          "iconifyClass": "logos:react"
         },
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Express",
+          "iconifyClass": "devicon:express"
         },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "la:node"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "skill-icons:css"
+        },
+        {
+          "name": "Vercel",
+          "iconifyClass": "devicon:vercel"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "skill-icons:mongodb"
+        },
+        {
+          "name": "Render",
+          "iconifyClass": "simple-icons:render"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736743793/Portfolio/videos/projects/aitashortened_ndm8cv.mov",
