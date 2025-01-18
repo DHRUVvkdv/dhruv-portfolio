@@ -2,72 +2,134 @@
   "data": [
     {
       "id": "1",
-      "name": "AI-powered teaching assistant",
-      "description": "A teacching assistant made with AI",
-      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
-      "date": "March 2021",
+      "name": "Desk by Chariott",
+      "description": "Web application that redefines hotel operations",
+      "longDescription": "Desk by Chariott is a web application that redefines hotel operations. It allows hotel staff to manage room settings, view guest requests, and track local attractions. The app has AI capabilities that allow it to predict guest preferences and provide personalized recommendations.",
+      "date": "October 2024",
       "tags": [
         "Web Development",
         "AI/ML",
-        "Full Stack"
+        "FastAPI"
       ],
+      "live":"https://main.d3lkr48qn04k1o.amplifyapp.com/      ",
       "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
-      "live": "https://mapability.vercel.app/",
       "languages": [
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:nextdotjs"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "skill-icons:docker"
         },
         {
           "name": "Python",
           "iconifyClass": "logos-python"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ],
-      "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736661634/Portfolio/videos/projects/chariott_mgv8b7.mp4",
-      "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736662137/Portfolio/videos/projects/thumbnailchariott_vpggqu.png",
-      "impact": [
-        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
-        "•of XYZ Hacbgcdfjksl;kathon"
-      ],
-      "features": [
-        "100+ concurrent users",
-        "Live display of topics"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "AI-powered teaching assistant",
-      "description": "A teacching assistant made with AI",
-      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
-      "date": "March 2021",
-      "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
-      "languages": [
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "AWS Cognito",
+          "iconifyClass": "logos:aws-cognito"
         },
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "AWS DynamoDB",
+          "iconifyClass": "devicon:dynamodb"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "AWS Amplify",
+          "iconifyClass": "logos:aws-amplify"
+        },
+        {
+          "name": "OpenAI",
+          "iconifyClass": "logos:openai-icon"
+        },
+        {
+          "name": "Cloudwatch",
+          "iconifyClass": "logos:aws-cloudwatch"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736661635/Portfolio/videos/projects/deskbychariott_khzwy5.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736661966/Portfolio/videos/projects/thumbnaildeskbychariott.png",
       "impact": [
-        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
-        "•of XYZ Hacbgcdfjksl;kathon"
+        "• First place winner of the Marriott Codefest 2024",
+        "• AI enabled insights for operational efficiency"
       ],
       "features": [
-        "100+ concurrent users",
-        "Live display of topics"
+        "AI assistance: AI powered insights for operational efficiency and guest satisfaction",
+        "Secure Access: Role-based data access for privacy",
+        "Guest Profiles: Real-time access to guest info",
+        "Request Alerts: Immediate notifications of guest needs",
+        "Task Assignment: Easily assigns and prioritizes tasks",
+        "Inventory Tracking: Manages amenities and service availability",
+        "Communication Hub: Streamlines inter-department messaging",
+        "Data Insights: Guest trends and service response times"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Chariott",
+      "description": "Mobile app that redefines hotel guest experience",
+      "longDescription": "Chariott is a React Native mobile application that redefines hotel guest experience. It allows guests to control room settings, order room service, and explore local attractions. The app has AI capabilities that allow it to predict guest preferences and provide personalized recommendations.",
+      "date": "October 2024",
+      "tags": [
+        "Mobile Development",
+        "AI/ML",
+        "React Native"
+      ],
+      "languages": [
+        {
+          "name": "React Native",
+          "iconifyClass": "logos:react"
+        },
+        {
+          "name": "Typescript",
+          "iconifyClass": "devicon:typescript"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Expo",
+          "iconifyClass": "file-icons:expo"
+        },
+        {
+          "name": "Google Translate",
+          "iconifyClass": "simple-icons:googletranslate"
+        },
+        {
+          "name": "AWS Lambda",
+          "iconifyClass": "logos:aws-lambda"
+        },
+        {
+          "name": "AWS S3",
+          "iconifyClass": "logos:aws-s3"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "devicon:fastapi"
+        }
+      ],
+      "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736661634/Portfolio/videos/projects/chariott_mgv8b7.mp4",
+      "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736662137/Portfolio/videos/projects/thumbnailchariott_vpggqu.png",
+      "impact": [
+        "• Option to switch between hotel chains",
+        "• Dyslexia mode for visually impaired guests"
+      ],
+      "features": [
+        "AI Chatbot Assistance: 24/7 support for quick answers and requests.",
+        "Personalized Recommendations: Tailored attractions and amenities",
+        "Self-Service Booking: Easy room booking and check-in",
+        "In-Stay Requests: Quick ordering of services",
+        "Itinerary & Explorer: Manage bookings and explore locally",
+        "Preference Settings: Guests set room and service preferences",
+        "Eco Ratings: View sustainability of offerings",
+        "Direct Communication: Instant messaging with hotel staff",
+        "Feedback & Reviews: Post-stay insights for improvement",
+        "Multi-language support"
       ]
     },
     {
