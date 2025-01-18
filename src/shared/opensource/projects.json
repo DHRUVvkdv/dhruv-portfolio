@@ -413,8 +413,13 @@
     {
       "id": "7",
       "name": "AI-powered chatbot",
-      "description": "A chatbot that helps people wanting to learn about LEWAS Lab",
-      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
+      "description": "A intelligent chatbot system for LEWAS Lab",
+      "longDescription": "Developed a production-grade AI assistant for Virginia Tech's LEWAS Lab using Retrieval-Augmented Generation (RAG) architecture. The system processes research documents and lab data to provide accurate, context-aware responses about water quality monitoring and research. Built with a serverless architecture using AWS services, the chatbot features real-time query processing, secure authentication, and efficient document management. The system can handle concurrent users and process 500+ technical documents while maintaining high response accuracy.",
+      "tags": [
+        "RAG Architecture",
+        "Research Tool",
+        "LangChain"
+    ],
       "date": "July 2024",
       "url": "https://github.com/DHRUVvkdv/RAG-Chatbot-Backend",
       "live": "https://chatlewas.streamlit.app/",
@@ -428,19 +433,60 @@
           "iconifyClass": "logos-python"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Streamlit",
+          "iconifyClass": "devicon:streamlit"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "devicon:fastapi"
+        },
+        {
+          "name": "Pinecone VectorDB",
+          "iconifyClass": "logos:pinecone-icon"
+        },
+        {
+          "name": "Langchain",
+          "iconifyClass": "simple-icons:langchain"
+        },
+        {
+          "name": "AWS S3",
+          "iconifyClass": "logos:aws-s3"
+        },
+        {
+          "name": "AWS Lambda",
+          "iconifyClass": "logos:aws-lambda"
+        },
+        {
+          "name": "AWS Cognito",
+          "iconifyClass": "logos:aws-cognito"
+        },
+        {
+          "name": "AWS DynamoDB",
+          "iconifyClass": "devicon:dynamodb"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736752076/Portfolio/videos/projects/lewaschatbot_kbfjvi.mov",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736752098/Portfolio/videos/projects/thumbnaillewas.png",
       "impact": [
-        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
-        "•of XYZ Hacbgcdfjksl;kathon"
+        "• Ability to handle 500+ documents and 100+ concurrent users",
+        "• Served as foundation in development of AI teaching assistant"
       ],
       "features": [
-        "100+ concurrent users",
-        "Live display of topics"
+        "100+ concurrent users supported through serverless architecture",
+        "Real-time chat interface with message history",
+        "Secure authentication using AWS Cognito",
+        "Advanced RAG system using AWS Bedrock and Pinecone",
+        "Document processing with automatic PDF vectorization",
+        "Intelligent chunking with metadata preservation",
+        "Source attribution with Google Drive integration",
+        "User feedback system for response quality",
+        "API key-based security middleware",
+        "DynamoDB-backed query storage and analytics",
+        "Docker containerization for scalability",
+        "Infrastructure as Code using AWS CDK",
+        "Cross-platform compatibility",
+        "Efficient vector similarity search",
+        "Real-time query tracking and analytics"
       ]
     }
   ]
