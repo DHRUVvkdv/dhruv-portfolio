@@ -207,7 +207,7 @@
       "languages": [
         {
           "name": "Docker",
-          "iconifyClass": "simple-icons:docker"
+          "iconifyClass": "skill-icons:docker"
         },
         {
           "name": "Python",
@@ -334,68 +334,94 @@
     {
       "id": "6",
       "name": "AI-powered teaching assistant",
-      "description": "A teacching assistant made with AI",
-      "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
-      "date": "March 2021",
-      "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
-      "live": "https://mapability.vercel.app/",
+      "description": "An AI teaching assitant which uses professors notes and web",
+      "longDescription": "This tool is a real time time AI teaching assistant which uses professors notes and web to help students understand the topic better. This tool uses the notes the professor has uploaded and the web to help students learn. There is a contradiction check to make sure the students are learning the right thing.",
+      "tags": [
+        "LangChain",
+        "Multi-agent AI",
+        "FastAPI"
+      ],
+      "date": "July 2024",
+      "url": "https://github.com/DHRUVvkdv/teaching-assistant",
+      "live": "https://teachingassistant-dv.streamlit.app/",
       "languages": [
         {
-          "name": "React",
-          "iconifyClass": "logos:react"
+          "name": "FastAPI",
+          "iconifyClass": "devicon:fastapi"
         },
         {
-          "name": "Express",
-          "iconifyClass": "devicon:express"
+          "name": "Pinecone VectorDB",
+          "iconifyClass": "logos:pinecone-icon"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Langchain",
+          "iconifyClass": "simple-icons:langchain"
         },
         {
-          "name": "Node.js",
-          "iconifyClass": "la:node"
+          "name": "Streamlit",
+          "iconifyClass": "devicon:streamlit"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "skill-icons:css"
+          "name": "AWS S3",
+          "iconifyClass": "logos:aws-s3"
         },
         {
-          "name": "Vercel",
-          "iconifyClass": "devicon:vercel"
+          "name": "AWS Lambda",
+          "iconifyClass": "logos:aws-lambda"
         },
         {
-          "name": "MongoDB",
-          "iconifyClass": "skill-icons:mongodb"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         },
         {
-          "name": "Render",
-          "iconifyClass": "simple-icons:render"
+          "name": "AWS Cognito",
+          "iconifyClass": "logos:aws-cognito"
+        },
+        {
+          "name": "Pandas",
+          "iconifyClass": "devicon:pandas"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "skill-icons:docker"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736743793/Portfolio/videos/projects/aitashortened_ndm8cv.mov",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736743641/Portfolio/videos/projects/thumbnailai.png",
       "impact": [
-        "•10k+ active users • Winner        df§     •of XYZ Hacbgcdfjksl;kathon",
-        "•of XYZ Hacbgcdfjksl;kathon"
+        "• Implemented 6 AI agents for streamlined learning via LangGraph",
+        "• Ability to verify contradictions in learning material"
       ],
       "features": [
-        "100+ concurrent users",
-        "Live display of topics"
-      ]
+        "Multi-professor knowledge integration with real-time web information synthesis",
+        "Personalized response generation based on individual professor's teaching style",
+        "Real-time translation capabilities for global accessibility",
+        "Secure document management system for instructors",
+        "Automated PDF processing and indexing",
+        "Customizable UI themes and fonts",
+        "Vector database integration for efficient knowledge retrieval",
+        "Web intelligence integration through Tavily API",
+        "Multi-agent system leveraging LangGraph",
+        "AWS cloud infrastructure integration (S3, Lambda, DynamoDB)",
+        "User authentication with email verification",
+        "Protected API endpoints",
+        "Real-time document status tracking",
+        "Dynamic query processing using advanced language models",
+        "Multiple presentation style options"
+        ]
     },
     {
       "id": "7",
-      "name": "AI-powered teaching assistant",
-      "description": "A teacching assistant made with AI",
+      "name": "AI-powered chatbot",
+      "description": "A chatbot that helps people wanting to learn about LEWAS Lab",
       "longDescription": "This tool will help to teach in a more postive way. This tool will help to teach in a more postive way. This tool will help to teach in a more postive way",
-      "date": "March 2021",
-      "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
-      "live": "https://mapability.vercel.app/",
+      "date": "July 2024",
+      "url": "https://github.com/DHRUVvkdv/RAG-Chatbot-Backend",
+      "live": "https://chatlewas.streamlit.app/",
       "languages": [
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "Docker",
+          "iconifyClass": "skill-icons:docker"
         },
         {
           "name": "Python",
