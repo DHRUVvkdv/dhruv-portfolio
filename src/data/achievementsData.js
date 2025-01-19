@@ -108,7 +108,7 @@ export const achievementsData = [
         ],
         impact: [
             "Implemented a web and mobile app to transform news consumption",
-            "Made it accesible for people with Dyslexia",
+            "Made it accessible for people with Dyslexia",
             "Won in a competition of 550+ participants"
         ],
         links: {
