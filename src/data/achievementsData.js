@@ -161,7 +161,7 @@ export const achievementsData = [
         ],
         impact: [
             "First place in the financial category",
-            "First winninng experience in a hackathon",
+            "First winning experience in a hackathon",
         ],
         links: {
             devpost: "https://devpost.com/software/stonks-simulator-7hvpxe",
