@@ -118,7 +118,7 @@ export const achievementsData = [
     },
     {
         id: 7,
-        title: "🏆 Winner - Peraton - Best Webhack using React (HackViolet 12) - VT",
+        title: "🏆 Winner - Peraton - Best Webhack using React (HackViolet) - VT",
         category: "hackathon",
         date: "February 2024",
         description: "Received first place in the best webhack using React category at HackViolet 2024 by Peraton for creating a web app that helps women to have proper diet and exercise during different menstrual phases.",
