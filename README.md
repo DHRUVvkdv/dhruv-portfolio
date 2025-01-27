@@ -5,4 +5,6 @@ This is inspired from Ashutosh
 
 I have to update the README
 
-Plan to update README:
+Plan to update Project:
+
+Remove all the unneccesary media
