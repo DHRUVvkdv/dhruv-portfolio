@@ -8,3 +8,5 @@ I have to update the README
 Plan to update Project:
 
 Remove all the unneccesary media
+
+Add a "Inspired from Ashutosh" maybe
