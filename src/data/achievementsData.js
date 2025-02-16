@@ -17,20 +17,20 @@ export const achievementsData = [
     },
     {
         id: 2,
-        title: "🥇 First Place - Marriott Codefest",
+        "title": "🥇 First Place - Marriott Codefest 2024",
         category: "hackathon",
         date: "October 2024",
-        description: "Made a full stack web app and mobile app for hotel booking, management and customer service that revolutionizes the hospitality industry in a 48-hour hackathon.",
+        description: "Developed an innovative hospitality management solution featuring an AI-powered mobile app supporting 130+ languages and a comprehensive web dashboard for staff operations, completed during a 48-hour hackathon.",
         images: [
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736753198/Portfolio/achievements/marriottcodefest/EBC233EE-B8CA-4242-AB1A-706D362CBF93_loxwjh.jpg",
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736753208/Portfolio/achievements/marriottcodefest/1729879374067_hjbdiz.jpg",
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736753266/Portfolio/achievements/marriottcodefest/Screenshot_2024-11-04_at_4.03.36_PM_t8zwsy.png",
             "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736661966/Portfolio/videos/projects/thumbnaildeskbychariott.png"
         ],
-        impact: [
-            "Invited to present at Marriott HQ",
-            "Featured in university newsletter",
-            "Project deployed to production"
+        "impact": [
+            "Invited to present at Marriott HQ to 1500+ attendees",
+            "Featured in Virginia Tech newsletter",
+            "Successfully deployed to production environment"
         ],
         links: {
             newsletter: "https://news.vt.edu/articles/2024/11/pamplin-code-the-future.html",

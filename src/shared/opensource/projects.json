@@ -3,8 +3,8 @@
     {
       "id": "1",
       "name": "Desk by Chariott",
-      "description": "Web application that redefines hotel operations",
-      "longDescription": "Desk by Chariott is a web application that redefines hotel operations. It allows hotel staff to manage room settings, view guest requests, and track local attractions. The app has AI capabilities that allow it to predict guest preferences and provide personalized recommendations.",
+      "description": "Advanced web platform optimizing hotel operations",
+      "longDescription": "Desk by Chariott is a comprehensive web application that transforms hotel operations through AI-powered insights and efficient management tools. Staff can monitor real-time operations, manage guest requests, and access predictive analytics through a secure, role-based dashboard that streamlines interdepartmental communication and resource allocation.",
       "date": "October 2024",
       "tags": [
         "Web Development",
@@ -54,8 +54,8 @@
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736661635/Portfolio/videos/projects/deskbychariott_khzwy5.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736661966/Portfolio/videos/projects/thumbnaildeskbychariott.png",
       "impact": [
-        "• Improved hotel operations by 30% and streamlined requests",
-        "• First place winner of the Marriott Codefest 2024"
+        "• Built AI-powered dashboard with RBAC (50+ APIs, 14 services)",
+        "• First place winner at Marriott Codefest 2024"
       ],
       "features": [
         "AI assistance: AI powered insights for operational efficiency and guest satisfaction",
@@ -71,8 +71,8 @@
     {
       "id": "2",
       "name": "Chariott",
-      "description": "Mobile app that redefines hotel guest experience",
-      "longDescription": "Chariott is a React Native mobile application that redefines hotel guest experience. It allows guests to control room settings, order room service, and explore local attractions. The app has AI capabilities that allow it to predict guest preferences and provide personalized recommendations.",
+      "description": "AI-powered mobile app revolutionizing hotel guest experiences",
+      "longDescription": "Chariott is a React Native mobile application that transforms hotel guest experiences through AI-powered personalization and multilingual support (130+ languages). Guests can manage room settings, access 24/7 AI assistance, explore local attractions, and receive personalized recommendations while maintaining seamless communication with hotel staff.",
       "date": "October 2024",
       "tags": [
         "Mobile Development",
@@ -121,8 +121,8 @@
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736661634/Portfolio/videos/projects/chariott_mgv8b7.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736662137/Portfolio/videos/projects/thumbnailchariott_vpggqu.png",
       "impact": [
-        "• Increased guest satisfaction by 40% and improved hotel ratings",
-        "• Dyslexia mode for visually impaired guests"
+        "• Implemented comprehensive support for 130+ languages",
+        "• Enhanced accessibility with dyslexia mode for inclusive experience"
       ],
       "features": [
         "AI Chatbot Assistance: 24/7 support for quick answers and requests.",
