@@ -64,24 +64,24 @@ export const achievementsData = [
         }
     },
     {
-        id: 4,
-        title: "🏆 Winner - CoStar Group - Best Real Estate Hack (VTHacks 12) - VT",
-        category: "hackathon",
-        date: "September 2024",
-        description: "Created a web app to allow users to review and rate buildings based on their accessibility features, such as ramps, elevators, and various other amenities.",
-        images: [
-            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736814838/Portfolio/achievements/_DSC0730_2_srslna.jpg",
+        "id": 4,
+        "title": "🏆 Winner - CoStar Group - Best Real Estate Hack (VTHacks 12) - VT",
+        "category": "hackathon",
+        "date": "September 2024",
+        "description": "Led development of an AI-powered accessibility platform processing 32+ building attributes across 8 categories, revolutionizing how people with disabilities navigate spaces.",
+        "images": [
+            "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736814838/Portfolio/achievements/_DSC0730_2_srslna.jpg"
         ],
-        impact: [
-            "Won in a competition of 650+ participants",
-            "Used cutting-edge technologies such as AWS, React, Node.js, MongoDB",
-            "Project deployed to production"
+        "impact": [
+            "Won among 650+ participants for innovative real estate solution",
+            "Engineered scalable AWS serverless architecture with 25 API endpoints",
+            "Implemented multi-dimensional accessibility rating system with AI integration"
         ],
-        links: {
-            website: "https://mapability.dhruvv.dev/",
-            video: "https://youtu.be/vk0lNKuEJ_s",
-            code: "https://github.com/DHRUVvkdv/mapability-backend",
-            devpost: "https://devpost.com/software/mapability-16m47i",
+        "links": {
+            "website": "https://mapability.dhruvv.dev/",
+            "video": "https://youtu.be/vk0lNKuEJ_s",
+            "code": "https://github.com/DHRUVvkdv/mapability-backend",
+            "devpost": "https://devpost.com/software/mapability-16m47i"
         }
     },
     {

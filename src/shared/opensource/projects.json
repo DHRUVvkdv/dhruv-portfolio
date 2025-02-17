@@ -249,77 +249,69 @@
     {
       "id": "5",
       "name": "Mapability",
-      "description": "Web app that helps you find accessible places",
-      "longDescription": "Mapability is a web application that helps users find accessible places. It provides information on wheelchair accessibility, and many other facilities. The app has a map view that displays accessible locations and allows users to filter by category.",
+      "description": "AI-powered accessibility mapping platform with comprehensive building insights",
+      "longDescription": "Award-winning platform that transforms accessibility navigation using AI. Features 32+ building attributes across 8 accessibility categories, real-time filtering, and personalized route planning with dyslexia-friendly interface.",
       "tags": [
-        "Web Development",
-        "Function Calling",
-        "AI"
+        "AI/ML",
+        "Cloud Architecture",
+        "Accessibility",
+        "Full Stack"
       ],
       "date": "September 2024",
       "url": "https://github.com/DHRUVvkdv/vthacks-2024-frontend",
       "live": "https://mapability.dhruvv.dev/",
       "languages": [
         {
-          "name": "Docker",
-          "iconifyClass": "skill-icons:docker"
-        },
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:nextdotjs"
         },
         {
           "name": "FastAPI",
           "iconifyClass": "devicon:fastapi"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "AWS Cognito",
-          "iconifyClass": "logos:aws-cognito"
+          "name": "MongoDB",
+          "iconifyClass": "skill-icons:mongodb"
         },
         {
           "name": "AWS Lambda",
           "iconifyClass": "logos:aws-lambda"
         },
         {
-          "name": "Next.js",
-          "iconifyClass": "simple-icons:nextdotjs"
+          "name": "AWS Amplify",
+          "iconifyClass": "logos:aws-amplify"
         },
         {
-          "name": "Vercel",
-          "iconifyClass": "devicon:vercel"
+          "name": "OpenAI",
+          "iconifyClass": "logos:openai"
         },
         {
-          "name": "MongoDB",
-          "iconifyClass": "skill-icons:mongodb"
+          "name": "Docker",
+          "iconifyClass": "skill-icons:docker"
         }
       ],
       "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1736706366/Portfolio/videos/projects/mapability.mp4",
       "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1736706442/Portfolio/videos/projects/thumbnailmapability.png",
       "impact": [
-        "• Generated 100+ personalized place recommendations",
-        "• AI powered summary of user reviews for better decision making"
+        "• Engineered 25 API endpoints processing 32+ building attributes",
+        "• Implemented real-time filtering across 8 accessibility categories",
+        "• Deployed live system using AWS Amplify with 3 UI accessibility modes"
       ],
       "features": [
-        "Scalable serverless architecture",
-        "User driven data collection",
-        "Custom review system allowing users to rate buildings based on specific accessibility metrics",
-        "Aggregated ratings system that combines multiple user reviews into comprehensive accessibility scores",
-        "Dyslexia-friendly text options",
-        "High contrast mode for visual accessibility",
-        "Text-to-speech and speech-to-text capabilities",
-        "AI-powered day planner that creates personalized itineraries",
-        "Custom filtering system with 8 different accessibility criteria",
-        "Building recommendations based on user preferences and needs",
-        "MongoDB backend for efficient data management",
-        "Docker containerization for scalable deployment",
-        "AWS cloud infrastructure integration",
-        "Google Maps API integration for location services",
-        "Function calling technology for structured data processing",
-        "AI-assisted review summarization and aggregation"
+        "Serverless architecture with FastAPI and AWS Lambda",
+        "Multi-dimensional rating system across 8 accessibility categories",
+        "Real-time MongoDB aggregation pipeline",
+        "AI-powered personalized route planning",
+        "Dyslexia-friendly interface with 3 accessibility modes",
+        "OpenAI integration for intelligent recommendations",
+        "Custom review aggregation system",
+        "Async processing for real-time updates",
+        "Comprehensive building accessibility profiles",
+        "MongoDB async operations for scalability",
+        "Docker containerization for consistent deployment",
+        "AWS Amplify for frontend deployment",
+        "Structured data processing with function calling",
+        "Dynamic accessibility scoring algorithm"
       ]
     },
     {
