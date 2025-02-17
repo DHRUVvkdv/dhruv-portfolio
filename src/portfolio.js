@@ -482,15 +482,26 @@ const degrees = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Leadership Experience",
+  subtitle: "Professional Journey",
   description:
-    "I have worked in the industry and have worked in research lab at my university, among other roles which have helped me develop my Computer Science skills. During my experience I have worked various Leadership and STEM roles which have helped me develop my soft skills.",
+    "Software Engineer with proven track record in AI/ML development and cloud architecture, demonstrated through impactful industry experience and research. Successfully led cloud infrastructure modernization reducing costs by 99x, while maintaining strong leadership presence through teaching and community roles.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work Experience",
+      title: "Technical Experience",
       work: true,
       experiences: [
+        {
+          title: "Software Engineering Intern & Undergraduate Research Assistant",
+          company: "Learning Enhanced Watershed Assessment System (LEWAS) Lab, Virginia Tech",
+          company_url: "https://lewas.ictas.vt.edu/",
+          logo_path: "lewas.png",
+          duration: "March 2024 - Present",
+          location: "Blacksburg, USA",
+          description:
+            "Led infrastructure modernization migrating to AWS serverless, reducing monthly costs 99x and enhancing security. Engineered RAG chatbot with PineconeDB achieving 60x retrieval speedup for 500+ docs and 100+ concurrent users. Designed multi-agent platform using LangGraph and AWS Bedrock with 6 specialized agents and 130+ languages. Maintained real-time monitoring system utilizing Raspberry Pi for 4 critical creek sensors with visualization. Deployed containerized services using AWS Lambda, Docker, S3, DynamoDB and Cognito for scalable solutions. Built Python automation reducing USGS collection from days to seconds, expandable to 13,500+ stations. Optimized database queries achieving 7.5x performance boost with PineconeDB and streamlined server architecture.",
+          color: "#0879bf",
+        },
         {
           title: "Solutions Architect Intern",
           company: "Contentstack",
@@ -499,62 +510,13 @@ const experience = {
           duration: "September 2024 - November 2024",
           location: "Remote, USA",
           description:
-            "Worked on an internal project aimed to help Solution Architect and Sales Engineers. Engineered embedding pipeline with 40x speedup. Implemented Worker threads for parallel processing reducing the processing time from 135s → 9.3s. Implemented batch processing for 50000+ records ensuring robust performance with error handling and logging.",
-          color: "#000000",
-        },
-        {
-          title: "Software Engineering Intern & Undergraduate Research Assistant",
-          company: "Learning Enhanced Watershed Assessment System (LEWAS) Lab, Virginia Tech",
-          company_url: "https://vt.edu/",
-          logo_path: "lewas.png",
-          duration: "March 2024 - Present",
-          location: "Blacksburg, USA",
-          description:
-            "Engineered AI-powered RAG chatbot for LEWAS Lab, processing 500+ documents from Google Drive and handling 500+ queries from 150+ users, boosting retrieval efficiency by 85% using AWS services. Designed a scalable full-stack system supporting 100+ concurrent users, harnessing AWS Bedrock, Claude 3, andLambda to enhance search precision and reduce cloud costs by 55%.",
-          color: "#0879bf",
-        },
-      ],
-    },
-    {
-      title: "Leadership Experience",
-      experiences: [
-        {
-          title: "Residential Well Being Student Leader",
-          company: "Virginia Tech",
-          company_url: "https://www.vt.edu/",
-          logo_path: "vtsmall.png",
-          duration: "August 2023 - May 2024",
-          location: "Blacksburg, USA",
-          description:
-            "Served as an Student Leader for 200+ students in the Innovate Living Learning Community (LLC) in the Creativtiy and Innovation District (CID). Organised and participated in 10+ fully organised events and activities for the LLC. Helped in the transition of the students to the university and helped them in their academic and personal growth.",
-          color: "#000000",
-        },
-        {
-          title: "Residential Advisor",
-          company: "Virginia Tech",
-          company_url: "https://www.vt.edu/",
-          logo_path: "vtsmall.png",
-          duration: "June 2023 - August 2023",
-          location: "Blacksburg, USA",
-          description:
-            "In my role, I had the privilege of guiding students through the critical transition into college life, particularly through my involvement in two pivotal programs: the Student Transition Engineering Program (STEP) and the Clark Scholars initiative. As a Residential Advisor for both programs, I played a central role in easing the adjustment process for incoming students, facilitating their integration into the Virginia Tech community.",
-          color: "#000000",
-        },
-        {
-          title: "President",
-          company: "Birla School Pilani",
-          company_url: "https://www.birlaschoolpilani.edu.in/",
-          logo_path: "bsp.png",
-          duration: "August 2021 - June 2022",
-          location: "Pilani, India",
-          description:
-            "Headed residential highscool with 500+ students. Participated in developing opportunities for students for overall devleopment of the students. Developing activites Helped organize various events and activities in the school. Led the student council and helped in organizing various events and activities in the school.",
+            "Successfully engineered parallel worker pipeline achieving 40x speedup, reducing embedding creation time from 81s to 2s. Optimized retrieval mechanism with promise-based execution, achieving 83% speedup in account analysis. Implemented knowledge engine with LangChain, achieving 14.5x performance through parallelization. Developed enterprise-scale MongoDB ETL pipeline with vector search and batch processing optimization for 50,000+ records. Integrated comprehensive error handling and logging ensuring data integrity. Collaborated with cross-functional teams to implement scalable solutions.",
           color: "#000000",
         },
       ],
     },
     {
-      title: "STEM Experience",
+      title: "Academic Leadership",
       experiences: [
         {
           title: "Undergraduate Teaching Assistant",
@@ -564,7 +526,7 @@ const experience = {
           duration: "August 2023 - May 2024",
           location: "Blacksburg, USA",
           description:
-            "During my time as an undergraduate teaching assistant for the Department of Engineering Education, I had the privilege of assisting two different classes: ENGE 1215 – Foundations of Engineering I in fall 2023, and ENGE 1216 – Foundations of Engineering II in Spring 2024, totaling 72 students. My role extended beyond traditional TA duties as I actively supported students in exploring different majors and determining the right fit for them. I facilitated coding lectures in both courses, tailoring my teaching approach to meet the diverse needs of the students. In ENGE 1215, I led a session on MATLAB to help students grasp the basics of programming by coding a program that solves an engineering problem. For ENGE 1216, I taught two sections on the Scratch programming language, covering fundamental programming concepts and algorithms.",
+            "Mentored 216 engineering students across ENGE 1215 and 1216. Led specialized coding lectures in MATLAB and Scratch programming. Provided one-on-one support helping students explore engineering majors. Developed comprehensive teaching materials for fundamental programming concepts. Maintained regular office hours fostering student growth and understanding. Collaborated closely with faculty to ensure effective content delivery.",
           color: "#4285F4",
         },
         {
@@ -575,7 +537,7 @@ const experience = {
           duration: "August 2023 - March 2024",
           location: "Blacksburg, USA",
           description:
-            "During my time as a Mathematics Tutor at Virginia Tech, spanning from August 23 to March 24, I had the opportunity to tutor a wide range of subjects, contributing to my growth and proficiency in various mathematical disciplines. Among the courses I tutored were MATH 1025 (Elementary Calculus), MATH 1225 (Calculus of a Single Variable), MATH 2534 (Introduction to Discrete Mathematics), MATH 1524 (Business Calculus), MATH 2114 (Introduction to Linear Algebra), and MATH 1226 (Calculus of a Single Variable II). Teaching these diverse subjects not only strengthened my own understanding of the material but also enhanced my ability to explain complex concepts effectively.",
+            "Tutored 200+ students across 6 advanced mathematics courses including Calculus I/II, Linear Algebra, and Discrete Mathematics. Created supplementary study materials for complex mathematical concepts. Maintained consistent 6-hour weekly schedule while managing full course load. Received consistently positive feedback for clear explanations and patient teaching approach.",
           color: "#4285F4",
         },
         {
@@ -586,13 +548,35 @@ const experience = {
           duration: "January 2024 - May 2024",
           location: "Blacksburg, USA",
           description:
-            "During the spring semester of 2024 at Virginia Tech, I served as a grader for Linear Algebra (MATH 2114), a role that afforded me valuable insights into the learning process and the importance of providing constructive feedback to students. In this capacity, my primary responsibility was to grade homework assignments, a task I approached with a focus on delivering detailed feedback aimed at fostering student comprehension and growth.",
+            "Served as primary grader for Linear Algebra (MATH 2114), evaluating work from 40+ students. Provided detailed, constructive feedback improving student understanding and performance. Maintained consistent turnaround time for assignments. Collaborated with faculty to ensure fair and accurate assessment standards. Streamlined grading process while maintaining quality.",
           color: "#4285F4",
+        },
+        {
+          title: "Residential Well-Being Student Leader",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "August 2023 - May 2024",
+          location: "Blacksburg, USA",
+          description:
+            "Led wellness initiatives for 200+ students in the Innovate Living Learning Community (LLC). Organized and executed 10+ community events fostering student engagement. Maintained safe and inclusive living environment. Developed comprehensive support resources for student success.",
+          color: "#000000",
+        },
+        {
+          title: "Residential Advisor",
+          company: "Virginia Tech",
+          company_url: "https://www.vt.edu/",
+          logo_path: "vtsmall.png",
+          duration: "June 2023 - August 2023",
+          location: "Blacksburg, USA",
+          description:
+            "Served as RA for STEP and Clark Scholars programs, managing 60+ students during the summer cohort. Implemented structured support system fostering academic excellence and personal growth. Helped organize daily activities and workshops promoting student engagement and development.",
+          color: "#000000",
         },
       ],
     },
     {
-      title: "Other Experience",
+      title: "Community Impact",
       experiences: [
         {
           title: "Ware Lab Tour Coordinator",
@@ -602,7 +586,7 @@ const experience = {
           duration: "July 2023 - August 2023",
           location: "Blacksburg, USA",
           description:
-            "In my role, I was entrusted with the task of making the Ware Lab known and accessible to students, families, and visitors alike. Through vivid and detailed tours, I offered an immersive experience that not only highlights the state-of-the-art technologies housed within the lab but also underscores the transformative impact of experiential learning on the academic and professional development of engineering students.",
+            "Conducted engaging tours of Virginia Tech's Ware Lab for 100+ prospective students and families. Showcased 8+ ongoing engineering projects and state-of-the-art facilities. Demonstrated practical applications of engineering concepts through hands-on examples. Received consistently positive feedback for clear communication and knowledge depth. Developed standardized tour routes optimizing visitor experience and information retention.",
           color: "#000000",
         },
         {
@@ -613,19 +597,19 @@ const experience = {
           duration: "June 2023 - July 2023",
           location: "Blacksburg, USA",
           description:
-            "During my tenure at the Center for the Enhancement of Engineering Diversity, I played a crucial role in supporting various summer camps, with a primary focus on the Black Engineering Excellence at Virginia Tech (BEE VT) program. Serving as a liaison between the program and different departments at Virginia Tech, I facilitated engaging learning sessions to broaden students' understanding of the diverse majors available at the university.",
+            "Supported Black Engineering Excellence (BEE VT) program impacting 50+ prospective students. Coordinated with 5+ university departments to organize comprehensive learning sessions. Facilitated workshops introducing students to various engineering disciplines. Maintained 100% program schedule adherence. Created engaging presentations improving student understanding of engineering pathways. Assisted in organizing and executing summer engineering programs.",
           color: "#4285F4",
         },
         {
-          title: "Student Employee, Dining Services",
-          company: "Virginia Tech",
-          company_url: "https://www.vt.edu/",
-          logo_path: "vtsmall.png",
-          duration: "October 2022 - July 2023",
-          location: "Blacksburg, USA",
+          title: "President",
+          company: "Birla School Pilani",
+          company_url: "https://www.birlaschoolpilani.edu.in/",
+          logo_path: "bsp.png",
+          duration: "August 2021 - June 2022",
+          location: "Pilani, India",
           description:
-            "As a student employee in dining services, I've honed my ability to multitask and thrive in a dynamic environment. From serving food and washing dishes to engaging with customers, my role has been diverse, fostering effective communication skills and a customer-centric approach.",
-          color: "#4285F4",
+            "Led residential high school with 400+ student body as elected Student President. Headed student council initiatives improving campus life and student engagement. Implemented new student development programs with measurable impact. Coordinated with administration to enhance student services. Managed student council budget effectively. Represented student body in administrative decision-making processes.",
+          color: "#000000",
         },
       ],
     },
