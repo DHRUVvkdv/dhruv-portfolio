@@ -2,7 +2,29 @@
 
 export const achievementsData = [
     {
-        id: 1,
+        "id": 1,
+        "title": "🏆 Winner - Capital One's Best Financial Hack - HackViolet 2025",
+        "category": "hackathon",
+        "date": "February 2025",
+        "description": "Developed an innovative women's health and empowerment platform featuring AI-powered scheduling, wellness tracking, and a skill marketplace, completed during a 24-hour hackathon.",
+        images: [
+            " https://res.cloudinary.com/dru4ekf2q/image/upload/v1739768675/Portfolio/videos/projects/iqns%20thumbnail.png",
+        ],
+        "impact": [
+            "Successfully deployed platform with 27 FastAPI endpoints",
+            "Implemented ML pipeline for personalized recommendations",
+            "Built marketplace system across 5 professional domains"
+        ],
+        links: {
+            website: "https://iqns.dhruvv.dev/",
+            video: "https://www.youtube.com/watch?v=U_OP-VL0J7Q",
+            code: "https://github.com/DHRUVvkdv/independent-queens-backend",
+            devpost: "https://devpost.com/software/independent-queens"
+
+        }
+    },
+    {
+        id: 2,
         title: "📝 Outstanding Participation CS 3114 - Data Structures and Algorithms",
         category: "certificate",
         date: "December 2024",
@@ -13,10 +35,10 @@ export const achievementsData = [
         impact: [
             "Actively participated in class discussions",
             "Asked insightful questions",
-        ],
+        ]
     },
     {
-        id: 2,
+        id: 3,
         "title": "🥇 First Place - Marriott Codefest 2024",
         category: "hackathon",
         date: "October 2024",
@@ -42,7 +64,7 @@ export const achievementsData = [
         }
     },
     {
-        id: 3,
+        id: 4,
         title: "🏆 Winner - CoStar Group - Best Real Estate Hack (VTHacks 12) - VT",
         category: "hackathon",
         date: "September 2024",
@@ -63,7 +85,7 @@ export const achievementsData = [
         }
     },
     {
-        id: 4,
+        id: 5,
         title: "Presented at 2024 Virginia Tech Undergraduate Research Conference",
         category: "research",
         date: "July 2024",
@@ -86,7 +108,7 @@ export const achievementsData = [
         }
     },
     {
-        id: 5,
+        id: 6,
         title: "Dean's List with Distinction - Virginia Tech",
         category: "award",
         date: "May 2024",
@@ -96,7 +118,7 @@ export const achievementsData = [
         ],
     },
     {
-        id: 6,
+        id: 7,
         title: "🥇 First Place - Accessibility & Empowerment (HooHacks 2024) - UVA",
         category: "hackathon",
         date: "March 2024",
@@ -117,7 +139,7 @@ export const achievementsData = [
         }
     },
     {
-        id: 7,
+        id: 8,
         title: "🏆 Winner - Peraton - Best Webhack using React (HackViolet) - VT",
         category: "hackathon",
         date: "February 2024",
@@ -140,7 +162,7 @@ export const achievementsData = [
         }
     },
     {
-        id: 8,
+        id: 9,
         title: "Dean's List with Distinction - Virginia Tech",
         category: "award",
         date: "Dec 2023",
@@ -150,8 +172,8 @@ export const achievementsData = [
         ],
     },
     {
-        id: 9,
-        title: "🏆 Winner - Capital One: Best Financial Hack (VTHacks 11) - VT",
+        id: 10,
+        title: "🏆 Winner - Capital One's Best Financial Hack (VTHacks 11) - VT",
         category: "hackathon",
         date: "September 2023",
         description: "Received first place in the financial category at VTHacks 11 for creating a web app that simulates the stock market and allows students to learn about investing without risking real money.",
@@ -169,7 +191,7 @@ export const achievementsData = [
         }
     },
     {
-        id: 10,
+        id: 11,
         title: "🏆 Winner - MLH: Auth0 - Best Use of Auth0 (VTHacks 11) - VT",
         category: "hackathon",
         date: "September 2023",
@@ -187,7 +209,7 @@ export const achievementsData = [
         }
     },
     {
-        id: 11,
+        id: 12,
         title: "President's List - Virginia Tech",
         category: "award",
         date: "Dec 2022",

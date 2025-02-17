@@ -11,7 +11,7 @@
         "AI/ML",
         "FastAPI"
       ],
-      "live":"https://main.d3lkr48qn04k1o.amplifyapp.com/      ",
+      "live":"https://main.d3lkr48qn04k1o.amplifyapp.com/",
       "url": "https://github.com/DHRUVvkdv/desk-chariott",
       "languages": [
         {
@@ -70,6 +70,60 @@
     },
     {
       "id": "2",
+      "name": "Independent Queens",
+      "description": "AI-powered women's health and empowerment platform",
+      "longDescription": "Independent Queens is a comprehensive women empowerment platform that integrates personalized health tracking, AI-powered scheduling, and skill marketplace features. The platform provides phase-specific wellness recommendations, emotional well-being tracking, and a community-driven skill exchange system.",
+      "date": "February 2025",
+      "tags": [
+        "Web Development",
+        "AI/ML",
+        "FastAPI"
+      ],
+      "live": "https://iqns.dhruvv.dev/",
+      "url": "https://github.com/DHRUVvkdv/independent-queens-backend",
+      "languages": [
+        {
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:nextdotjs"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos:mongodb"
+        },
+        {
+          "name": "AWS Cognito",
+          "iconifyClass": "logos:aws-cognito"
+        },
+        {
+          "name": "AWS Lambda",
+          "iconifyClass": "logos:aws-lambda"
+        },
+        {
+          "name": "Canvas LMS",
+          "iconifyClass": "simple-icons:instructure"
+        }
+      ],
+      "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1739768745/Portfolio/videos/projects/Independent_Queens%20Video.mp4",
+      "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1739768675/Portfolio/videos/projects/iqns%20thumbnail.png",
+      "impact": [
+        "• Built platform with 27 FastAPI endpoints and AI integration",
+        "• Won Capital One's Best Financial Hack at HackViolet 2024"
+      ],
+      "features": [
+        "AI Scheduling: Personalized schedule optimization based on menstrual phase",
+        "Health Tracking: Phase-specific wellness recommendations",
+        "Skill Marketplace: Community-driven skill exchange across 5 domains",
+        "Canvas Integration: Synchronization with academic schedules",
+        "Real-time Analytics: Emotional well-being and health insights",
+        "Secure Platform: AWS Cognito authentication and MongoDB data storage"
+      ]
+    },
+    {
+      "id": "3",
       "name": "Chariott",
       "description": "AI-powered mobile app revolutionizing hotel guest experiences",
       "longDescription": "Chariott is a React Native mobile application that transforms hotel guest experiences through AI-powered personalization and multilingual support (130+ languages). Guests can manage room settings, access 24/7 AI assistance, explore local attractions, and receive personalized recommendations while maintaining seamless communication with hotel staff.",
@@ -138,7 +192,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "name": "InstaShop",
       "description": "Web app which finds shortest path to your groceries",
       "longDescription": "Have you ever ran back and forth in a grocery store? Worry not! We have implemented collaboration with Target to help you find your groceries and return the shortest path to enter and exit the store.",
@@ -193,7 +247,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "Mapability",
       "description": "Web app that helps you find accessible places",
       "longDescription": "Mapability is a web application that helps users find accessible places. It provides information on wheelchair accessibility, and many other facilities. The app has a map view that displays accessible locations and allows users to filter by category.",
@@ -269,7 +323,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": "6",
       "name": "Rhytm and Rise",
       "description": "Web app for balancing diet & exercise during menstrual phases",
       "longDescription": "Rhythm and Rise is a web application that helps users balance their diet and exercise routines with their menstrual phases. The app has a calendar view that displays the user's cycle and provides affirmations. It has an interactive easy to use UI.",
@@ -333,7 +387,7 @@
       ]
     },
     {
-      "id": "6",
+      "id": "7",
       "name": "AI-powered teaching assistant",
       "description": "An AI teaching assitant which uses professors notes and web",
       "longDescription": "This tool is a real time time AI teaching assistant which uses professors notes and web to help students understand the topic better. This tool uses the notes the professor has uploaded and the web to help students learn. There is a contradiction check to make sure the students are learning the right thing.",
@@ -412,7 +466,7 @@
         ]
     },
     {
-      "id": "7",
+      "id": "8",
       "name": "AI-powered chatbot",
       "description": "A intelligent chatbot system for LEWAS Lab",
       "longDescription": "Developed a production-grade AI assistant for Virginia Tech's LEWAS Lab using Retrieval-Augmented Generation (RAG) architecture. The system processes research documents and lab data to provide accurate, context-aware responses about water quality monitoring and research. Built with a serverless architecture using AWS services, the chatbot features real-time query processing, secure authentication, and efficient document management. The system can handle concurrent users and process 500+ technical documents while maintaining high response accuracy.",
