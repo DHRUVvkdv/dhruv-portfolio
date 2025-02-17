@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "DhruvVarshney",
   nickname: "Software Engineer",
   subTitle: "Software Engineer specializing in AI/ML and cloud solutions. Currently senior student at Virginia Tech, developing systems that have achieved up to 60x performance improvements.",
-  resumeLink: "https://drive.google.com/file/d/1JF3C729MTatxuSO1vH_Ebo8iSHDzsGWj/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1UDfqt-zCKi5fIG2fyNPo31UP3CA-AR5D/view?usp=sharing",
   portfolio_repository: "https://github.com/DHRUVvkdv/dhruv-portfolio",
   githubProfile: "https://github.com/DHRUVvkdv",
 };
