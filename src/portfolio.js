@@ -336,17 +336,17 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Virginia Tech (Virginia Polytechnic Institute and State University) ",
+      title: "Virginia Tech (Virginia Polytechnic Institute and State University)",
       subtitle: "B.S. in Computer Science",
       logo_path: "vt.png",
       alt_name: "Virginia Tech",
       duration: "2022 - Present",
       descriptions: [
-        "⚡ I have taken courses in college which correspond to Data Structures, Algorithms, Operating Systems, STEM classes and other soft skill subjects which helped me to develop professionally and personally.",
-        "⚡ Apart from this, advanced courses like Machine Learning, Cloud and Mobile Software Development, Theory of Algorithms and Interdisciplinary course which helped me to gain knowledge in various fields.",
-        "⚡ I been part of various clubs and organizations such as Google Developer Student Club, Cyber@VT and volunteered to support the community.",
-        "⚡ I have also been part of various hackathons and research projects which helped me to gain experience in real world problems and solutions.",
-        "⚡ I have received Dean's List and President's List award for my academic performance in the university.",
+        "⚡ Pursuing advanced coursework in AI/ML, Cloud Software Development (MERN Stack), Mobile Development (Kotlin), Theory of Algorithms, Operating Systems, Data Structures, and Interdisciplinary Capstone Design, building a strong foundation in computer science fundamentals and modern technologies.",
+        "⚡ Achieved consistent academic excellence with multiple Dean's List and President's List recognitions while maintaining a strong GPA of 3.80/4.00, demonstrating commitment to academic rigor and continuous learning.",
+        "⚡ Won 7 hackathons including Marriott Codefest 2024, receiving recognition from Marriott CTO and Virginia Tech publications, showcasing practical application of technical skills and innovative problem-solving abilities.",
+        "⚡ Active member of Google Developer Student Club and Cyber@VT, contributing to technical workshops, community projects, and volunteering initiatives that support technology education and community development.",
+        "⚡ Participated in NSF-funded research at LEWAS Lab, developing AI solutions achieving 60x performance improvements and implementing cloud infrastructure optimizations reducing costs by 99x, demonstrating ability to deliver impactful technical solutions.",
       ],
       website_link: "https://www.vt.edu/",
     },
@@ -357,9 +357,9 @@ const degrees = {
       alt_name: "Birla School Pilani",
       duration: "2018 - 2022",
       descriptions: [
-        "⚡ I took courses in high school which correspond to Mathematics, Physics, Chemistry, Computer Science, English, and Music which helped me to develop a strong hold of these subjects..",
-        "⚡ I gained leadership experience by being President of the Student Council organizing various events and activities in the school.",
-        "⚡ I was part of the football team of the school and have won various competitions.",
+        "⚡ Excelled in comprehensive STEM curriculum with strong focus on Mathematics, Physics, Chemistry, and Computer Science, while also pursuing English and Music, developing a well-rounded academic foundation and analytical thinking skills.",
+        "⚡ Elected as Student Council President, leading 400+ student body and organizing 10+ major school events, while effectively managing student council budget and implementing various student development initiatives.",
+        "⚡ Represented school in competitive football tournaments, winning regional championships and developing strong leadership and teamwork skills through sports participation and athletic achievements.",
       ],
       website_link: "https://www.birlaschoolpilani.edu.in/",
     },
