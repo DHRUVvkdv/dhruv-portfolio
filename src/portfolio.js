@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "DhruvVarshney",
   nickname: "Software Engineer",
   subTitle: "Software Engineer specializing in AI/ML and cloud solutions. Currently senior student at Virginia Tech, developing systems that have achieved up to 60x performance improvements.",
-  resumeLink: "https://drive.google.com/file/d/1UDfqt-zCKi5fIG2fyNPo31UP3CA-AR5D/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1-1EFpA08dZVUMxv5d3kii_sdVh5842dA/view?usp=sharing",
   portfolio_repository: "https://github.com/DHRUVvkdv/dhruv-portfolio",
   githubProfile: "https://github.com/DHRUVvkdv",
 };
@@ -499,7 +499,26 @@ const experience = {
           duration: "March 2024 - Present",
           location: "Blacksburg, USA",
           description:
-            "Led infrastructure modernization migrating to AWS serverless, reducing monthly costs 99x and enhancing security. Engineered RAG chatbot with PineconeDB achieving 60x retrieval speedup for 500+ docs and 100+ concurrent users. Designed multi-agent platform using LangGraph and AWS Bedrock with 6 specialized agents and 130+ languages. Maintained real-time monitoring system utilizing Raspberry Pi for 4 critical creek sensors with visualization. Deployed containerized services using AWS Lambda, Docker, S3, DynamoDB and Cognito for scalable solutions. Built Python automation reducing USGS collection from days to seconds, expandable to 13,500+ stations. Optimized database queries achieving 7.5x performance boost with PineconeDB and streamlined server architecture.",
+            "• Led infrastructure modernization migrating to AWS serverless\n" +
+            "  ‣ Reduced monthly costs by 99x while enhancing security protocols\n" +
+            "  ‣ Deployed containerized services using AWS Lambda, Docker, S3, DynamoDB, and Cognito\n\n" +
+
+            "• Engineered RAG chatbot with PineconeDB\n" +
+            "  ‣ Achieved 60x retrieval speedup for 500+ documents\n" +
+            "  ‣ Supported 100+ concurrent users with optimized performance\n\n" +
+
+            "• Designed multi-agent platform using LangGraph and AWS Bedrock\n" +
+            "  ‣ Implemented 6 specialized agents supporting 130+ languages\n" +
+            "  ‣ Integrated comprehensive error handling and monitoring\n\n" +
+
+            "• Built data collection and processing systems\n" +
+            "  ‣ Developed Python automation reducing USGS collection from days to seconds\n" +
+            "  ‣ Scaled solution to handle 13,500+ stations\n" +
+            "  ‣ Achieved 7.5x performance boost through optimized database queries\n\n" +
+
+            "• Maintained real-time monitoring infrastructure\n" +
+            "  ‣ Utilized Raspberry Pi for 4 critical creek sensors\n" +
+            "  ‣ Implemented visualization dashboard for data analysis",
           color: "#0879bf",
         },
         {
@@ -510,7 +529,19 @@ const experience = {
           duration: "September 2024 - November 2024",
           location: "Remote, USA",
           description:
-            "Successfully engineered parallel worker pipeline achieving 40x speedup, reducing embedding creation time from 81s to 2s. Optimized retrieval mechanism with promise-based execution, achieving 83% speedup in account analysis. Implemented knowledge engine with LangChain, achieving 14.5x performance through parallelization. Developed enterprise-scale MongoDB ETL pipeline with vector search and batch processing optimization for 50,000+ records. Integrated comprehensive error handling and logging ensuring data integrity. Collaborated with cross-functional teams to implement scalable solutions.",
+            "• Engineered parallel worker pipeline\n" +
+            "  ‣ Achieved 40x speedup in embedding creation process\n" +
+            "  ‣ Reduced processing time from 81s to 2s through optimization\n\n" +
+            "• Optimized retrieval mechanisms\n" +
+            "  ‣ Implemented promise-based execution for faster processing\n" +
+            "  ‣ Achieved 83% speedup in account analysis\n\n" +
+            "• Developed knowledge engine with LangChain\n" +
+            "  ‣ Achieved 14.5x performance boost through parallelization\n" +
+            "  ‣ Implemented comprehensive error handling and logging\n\n" +
+            "• Built enterprise-scale ETL pipeline\n" +
+            "  ‣ Integrated MongoDB with vector search capabilities\n" +
+            "  ‣ Optimized batch processing for 50,000+ records\n" +
+            "  ‣ Ensured data integrity through robust error handling",
           color: "#000000",
         },
       ],
@@ -526,7 +557,18 @@ const experience = {
           duration: "August 2023 - May 2024",
           location: "Blacksburg, USA",
           description:
-            "Mentored 216 engineering students across ENGE 1215 and 1216. Led specialized coding lectures in MATLAB and Scratch programming. Provided one-on-one support helping students explore engineering majors. Developed comprehensive teaching materials for fundamental programming concepts. Maintained regular office hours fostering student growth and understanding. Collaborated closely with faculty to ensure effective content delivery.",
+            "• Mentored 216 engineering students in foundational courses\n" +
+            "  ‣ Led ENGE 1215 (Foundations of Engineering I) sessions\n" +
+            "  ‣ Conducted ENGE 1216 (Foundations of Engineering II) tutorials\n\n" +
+            "• Developed and delivered specialized programming lectures\n" +
+            "  ‣ Created comprehensive MATLAB programming materials\n" +
+            "  ‣ Led Scratch programming workshops with hands-on exercises\n\n" +
+            "• Provided comprehensive student support\n" +
+            "  ‣ Maintained regular office hours for one-on-one assistance\n" +
+            "  ‣ Helped students explore various engineering disciplines\n\n" +
+            "• Collaborated with faculty for course improvement\n" +
+            "  ‣ Contributed to curriculum development\n" +
+            "  ‣ Ensured effective content delivery and student understanding",
           color: "#4285F4",
         },
         {
@@ -537,7 +579,15 @@ const experience = {
           duration: "August 2023 - March 2024",
           location: "Blacksburg, USA",
           description:
-            "Tutored 200+ students across 6 advanced mathematics courses including Calculus I/II, Linear Algebra, and Discrete Mathematics. Created supplementary study materials for complex mathematical concepts. Maintained consistent 6-hour weekly schedule while managing full course load. Received consistently positive feedback for clear explanations and patient teaching approach.",
+            "• Tutored 200+ students across advanced mathematics courses\n" +
+            "  ‣ Covered Calculus I/II, Linear Algebra, and Discrete Mathematics\n" +
+            "  ‣ Maintained consistent 6-hour weekly support schedule\n\n" +
+            "• Created supplementary learning materials\n" +
+            "  ‣ Developed study guides for complex mathematical concepts\n" +
+            "  ‣ Designed practice problems for better understanding\n\n" +
+            "• Received positive student feedback\n" +
+            "  ‣ Recognized for clear explanations and patient approach\n" +
+            "  ‣ Helped improve student performance and confidence",
           color: "#4285F4",
         },
         {
@@ -548,7 +598,15 @@ const experience = {
           duration: "January 2024 - May 2024",
           location: "Blacksburg, USA",
           description:
-            "Served as primary grader for Linear Algebra (MATH 2114), evaluating work from 40+ students. Provided detailed, constructive feedback improving student understanding and performance. Maintained consistent turnaround time for assignments. Collaborated with faculty to ensure fair and accurate assessment standards. Streamlined grading process while maintaining quality.",
+            "• Served as primary grader for Linear Algebra (MATH 2114)\n" +
+            "  ‣ Evaluated coursework for 40+ students\n" +
+            "  ‣ Maintained consistent one-week turnaround time\n\n" +
+            "• Provided comprehensive feedback\n" +
+            "  ‣ Offered detailed explanations for problem-solving approaches\n" +
+            "  ‣ Developed standardized feedback templates\n\n" +
+            "• Collaborated with faculty\n" +
+            "  ‣ Ensured fair and accurate assessment standards\n" +
+            "  ‣ Participated in grading calibration sessions",
           color: "#4285F4",
         },
         {
@@ -559,7 +617,15 @@ const experience = {
           duration: "August 2023 - May 2024",
           location: "Blacksburg, USA",
           description:
-            "Led wellness initiatives for 200+ students in the Innovate Living Learning Community (LLC). Organized and executed 10+ community events fostering student engagement. Maintained safe and inclusive living environment. Developed comprehensive support resources for student success.",
+            "• Led wellness initiatives in Innovate LLC\n" +
+            "  ‣ Impacted 200+ students through various programs\n" +
+            "  ‣ Created inclusive community environment\n\n" +
+            "• Organized community engagement events\n" +
+            "  ‣ Planned and executed 10+ major events\n" +
+            "  ‣ Facilitated student networking and collaboration\n\n" +
+            "• Implemented student support programs\n" +
+            "  ‣ Developed peer mentoring initiatives\n" +
+            "  ‣ Created resources for student success",
           color: "#000000",
         },
         {
@@ -570,7 +636,15 @@ const experience = {
           duration: "June 2023 - August 2023",
           location: "Blacksburg, USA",
           description:
-            "Served as RA for STEP and Clark Scholars programs, managing 60+ students during the summer cohort. Implemented structured support system fostering academic excellence and personal growth. Helped organize daily activities and workshops promoting student engagement and development.",
+            "• Managed STEP and Clark Scholars programs\n" +
+            "  ‣ Supported 60+ students during summer session\n" +
+            "  ‣ Maintained safe and inclusive living environment\n\n" +
+            "• Developed student engagement activities\n" +
+            "  ‣ Organized daily workshops and events\n" +
+            "  ‣ Promoted academic and personal growth\n\n" +
+            "• Provided comprehensive student support\n" +
+            "  ‣ Implemented structured support system\n" +
+            "  ‣ Facilitated student transition to university life",
           color: "#000000",
         },
       ],
@@ -586,7 +660,15 @@ const experience = {
           duration: "July 2023 - August 2023",
           location: "Blacksburg, USA",
           description:
-            "Conducted engaging tours of Virginia Tech's Ware Lab for 100+ prospective students and families. Showcased 8+ ongoing engineering projects and state-of-the-art facilities. Demonstrated practical applications of engineering concepts through hands-on examples. Received consistently positive feedback for clear communication and knowledge depth. Developed standardized tour routes optimizing visitor experience and information retention.",
+            "• Conducted engineering facility tours\n" +
+            "  ‣ Led tours for 100+ prospective students and families\n" +
+            "  ‣ Showcased 8+ ongoing engineering projects\n\n" +
+            "• Improved tour experience\n" +
+            "  ‣ Developed standardized tour routes\n" +
+            "  ‣ Created engaging presentation materials\n\n" +
+            "• Demonstrated practical engineering applications\n" +
+            "  ‣ Provided hands-on examples of concepts\n" +
+            "  ‣ Received positive feedback for clear communication",
           color: "#000000",
         },
         {
@@ -597,7 +679,15 @@ const experience = {
           duration: "June 2023 - July 2023",
           location: "Blacksburg, USA",
           description:
-            "Supported Black Engineering Excellence (BEE VT) program impacting 50+ prospective students. Coordinated with 5+ university departments to organize comprehensive learning sessions. Facilitated workshops introducing students to various engineering disciplines. Maintained 100% program schedule adherence. Created engaging presentations improving student understanding of engineering pathways. Assisted in organizing and executing summer engineering programs.",
+            "• Supported BEE VT program implementation\n" +
+            "  ‣ Impacted 50+ prospective engineering students\n" +
+            "  ‣ Maintained 100% program schedule adherence\n\n" +
+            "• Coordinated with university departments\n" +
+            "  ‣ Worked with 5+ departments for learning sessions\n" +
+            "  ‣ Organized comprehensive engineering workshops\n\n" +
+            "• Enhanced program effectiveness\n" +
+            "  ‣ Created engaging presentation materials\n" +
+            "  ‣ Facilitated student understanding of engineering pathways",
           color: "#4285F4",
         },
         {
@@ -608,7 +698,15 @@ const experience = {
           duration: "August 2021 - June 2022",
           location: "Pilani, India",
           description:
-            "Led residential high school with 400+ student body as elected Student President. Headed student council initiatives improving campus life and student engagement. Implemented new student development programs with measurable impact. Coordinated with administration to enhance student services. Managed student council budget effectively. Represented student body in administrative decision-making processes.",
+            "• Led 400+ student body as elected President\n" +
+            "  ‣ Represented students in administrative decisions\n" +
+            "  ‣ Managed student council operations\n\n" +
+            "• Improved campus life initiatives\n" +
+            "  ‣ Implemented new student development programs\n" +
+            "  ‣ Enhanced student services and facilities\n\n" +
+            "• Managed council responsibilities\n" +
+            "  ‣ Coordinated with administration effectively\n" +
+            "  ‣ Oversaw budget and resource allocation",
           color: "#000000",
         },
       ],
