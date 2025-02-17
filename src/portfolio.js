@@ -9,9 +9,9 @@ const settings = {
 const seo = {
   title: "Dhruv's Portfolio",
   description:
-    "A motivated individual who is always looking to learn and grow from every opportunity. I am a passionate learner and always looking to learn new technologies.",
+    "Software Engineer specializing in AI/ML and Cloud Architecture | 7x Hackathon Winner | Research Assistant at NSF-funded LEWAS Lab | Experienced in developing scalable solutions with AWS, achieving up to 99x cost reduction and 60x performance improvements.",
   og: {
-    title: "Dhruv Varshney Portfolio",
+    title: "Dhruv Varshney - Software Engineer & AI Developer",
     type: "website",
     url: "http://dhruvv.dev/",
   },
@@ -21,11 +21,9 @@ const seo = {
 const greeting = {
   title: "Dhruv Varshney",
   logo_name: "DhruvVarshney",
-  nickname: "",
-  subTitle:
-    "A motivated individual who is always looking to learn and grow from every opportunity. I am a passionate learner and always looking to learn new technologies. ",
-  resumeLink:
-    "https://drive.google.com/file/d/1spvCZorz8RT8N5M95NUgmsgIFnG0_nbL/view?usp=sharing",
+  nickname: "Software Engineer",
+  subTitle: "Software Engineer specializing in AI/ML and cloud solutions. Currently senior student at Virginia Tech, developing systems that have achieved up to 60x performance improvements.",
+  resumeLink: "https://drive.google.com/file/d/1JF3C729MTatxuSO1vH_Ebo8iSHDzsGWj/view?usp=sharing",
   portfolio_repository: "https://github.com/DHRUVvkdv/dhruv-portfolio",
   githubProfile: "https://github.com/DHRUVvkdv",
 };
@@ -70,12 +68,12 @@ const skills = {
       title: "Machine Learning & Artificial Intelligence",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Using Machine Learning and Artificial Intelligence to solve real world problems",
-        "⚡ Experience with popular libraries like Tensorflow, Keras, Scikit-learn, Pandas, Numpy",
-        "⚡ Experience with CNNs, LSTMs, and time series analysis",
-        "⚡ Experience with working with AWS Bedrock, Langchain to make AI projects scalable and fast",
-        "⚡ Experience with Vector Databases like Pinecone, MongoDB",
-        "⚡ Gained experience from working in the industry and doing research",
+        "⚡ Engineered RAG chatbots achieving 60x retrieval speedup for 500+ documents and 100+ concurrent users",
+        "⚡ Developed multi-agent systems supporting 130+ languages using AWS Bedrock and LangGraph",
+        "⚡ Implemented ML pipelines using TensorFlow, Keras, and Scikit-learn for real-world applications",
+        "⚡ Optimized vector database queries achieving 7.5x performance boost with PineconeDB",
+        "⚡ Built enterprise knowledge engines with 14.5x performance through LangChain parallelization",
+        "⚡ Experience with CNNs, LSTMs, and time series analysis from research and industry projects"
       ],
       softwareSkills: [
         {
@@ -139,12 +137,12 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building full stack applications and mobile applications using various stacks and technologies",
-        "⚡ Proficient in building backend applications using FastAPI, Express. Also, have experience in building RESTful APIs",
-        "⚡ Proficient in understand the requirements of the product and building the product from scratch",
-        "⚡ Experience with working on projects affecting thousands of users",
-        "⚡ Experience in understanding different APIs, GraphQL, and building scalable applications",
-        "⚡ Experience gained from industry, research work and hackathons",
+        "⚡ Architected scalable backends with 25+ API endpoints handling concurrent requests",
+        "⚡ Built and deployed 5+ full-stack applications using MERN stack, Next.js, and FastAPI",
+        "⚡ Developed mobile applications using React Native and Kotlin with 3+ UI accessibility modes",
+        "⚡ Designed robust authentication systems using AWS Cognito and Auth0 for enterprise applications",
+        "⚡ Implemented real-time data processing systems with MongoDB and WebSocket integrations",
+        "⚡ Created RESTful APIs serving 100+ concurrent users with optimized response times"
       ],
       softwareSkills: [
         {
@@ -217,15 +215,15 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infrastructure & DevOps",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms, learning new tools and technologies",
-        "⚡ Hosting and maintaining websites and databases on different cloud platforms",
-        "⚡ Building scalable and highly available cloud infrastructure for fast and reliable services",
-        "⚡ Experience with full end to end service, from authentication to database management",
-        "⚡ Various projects deployed handling thousands of requests",
-        "⚡ Various projects deployed handling capable of handling 100+ users at a time",
+        "⚡ Led AWS serverless migration reducing monthly costs by 99x while enhancing security",
+        "⚡ Deployed containerized microservices using Docker and AWS Lambda for scalable solutions",
+        "⚡ Implemented cloud infrastructure handling 1500+ users across multiple projects",
+        "⚡ Managed end-to-end authentication and database systems using AWS Cognito and DynamoDB",
+        "⚡ Built real-time monitoring systems for critical sensors with visualization dashboards",
+        "⚡ Optimized cloud architecture reducing data collection time from days to seconds"
       ],
       softwareSkills: [
         {
