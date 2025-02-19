@@ -330,8 +330,8 @@
           "iconifyClass": "logos:aws-lambda"
         },
         {
-          "name": "AWS Amplify",
-          "iconifyClass": "logos:aws-amplify"
+          "name": "Vercel",
+          "iconifyClass": "devicon:vercel"
         },
         {
           "name": "OpenAI",
