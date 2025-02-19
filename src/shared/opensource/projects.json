@@ -124,6 +124,58 @@
     },
     {
       "id": "3",
+      "name": "Animal Video Game",
+      "description": "IoT platform for automated cow cognitive testing",
+      "longDescription": "An innovative interdisciplinary platform combining IoT and cloud computing for automated animal cognitive testing. The system processes real-time behavioral data through secure farm-to-cloud infrastructure, enabling researchers to analyze animal cognitive patterns through an intelligent dashboard.",
+      "date": "February 2025",
+      "tags": [
+        "Cloud Architecture",
+        "IoT",
+        "Web Development"
+      ],
+      "languages": [
+        {
+          "name": "Next.js",
+          "iconifyClass": "simple-icons:nextdotjs"
+        },
+        {
+          "name": "AWS Lambda",
+          "iconifyClass": "logos:aws-lambda"
+        },
+        {
+          "name": "DynamoDB",
+          "iconifyClass": "devicon:dynamodb"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "Raspberry Pi",
+          "iconifyClass": "simple-icons:raspberrypi"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ],
+      "thumbnail": "https://res.cloudinary.com/dru4ekf2q/image/upload/v1739923636/Portfolio/videos/projects/idcthumbnail_g4mgwd.jpg",
+      "video": "https://res.cloudinary.com/dru4ekf2q/video/upload/v1739924449/Portfolio/videos/projects/comingsoon_noddqz.mp4",
+      "impact": [
+        "• Led 5-person cloud infrastructure team across 3 engineering domains",
+        "• Engineered real-time farm-to-cloud data processing system"
+      ],
+      "features": [
+        "Secure Farm-to-Cloud Infrastructure: Tailscale VPN and SSH remote access",
+        "Real-time Data Processing: Automated pipelines with AWS Lambda",
+        "Intelligent Dashboard: Next.js visualization of cognitive patterns",
+        "IoT Integration: Raspberry Pi-based hardware interface",
+        "Automated Testing: Custom cognitive bias testing system",
+        "Secure Data Storage: DynamoDB with real-time updates"
+      ]
+    },
+    {
+      "id": "4",
       "name": "Chariott",
       "description": "AI-powered mobile app revolutionizing hotel guest experiences",
       "longDescription": "Chariott is a React Native mobile application that transforms hotel guest experiences through AI-powered personalization and multilingual support (130+ languages). Guests can manage room settings, access 24/7 AI assistance, explore local attractions, and receive personalized recommendations while maintaining seamless communication with hotel staff.",
@@ -192,7 +244,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "InstaShop",
       "description": "Web app which finds shortest path to your groceries",
       "longDescription": "Have you ever ran back and forth in a grocery store? Worry not! We have implemented collaboration with Target to help you find your groceries and return the shortest path to enter and exit the store.",
@@ -247,7 +299,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": "6",
       "name": "Mapability",
       "description": "AI-powered accessibility mapping platform with comprehensive building insights",
       "longDescription": "Award-winning platform that transforms accessibility navigation using AI. Features 32+ building attributes across 8 accessibility categories, real-time filtering, and personalized route planning with dyslexia-friendly interface.",
@@ -315,7 +367,7 @@
       ]
     },
     {
-      "id": "6",
+      "id": "7",
       "name": "Rhytm and Rise",
       "description": "Web app for balancing diet & exercise during menstrual phases",
       "longDescription": "Rhythm and Rise is a web application that helps users balance their diet and exercise routines with their menstrual phases. The app has a calendar view that displays the user's cycle and provides affirmations. It has an interactive easy to use UI.",
@@ -379,7 +431,7 @@
       ]
     },
     {
-      "id": "7",
+      "id": "8",
       "name": "AI-powered teaching assistant",
       "description": "An AI teaching assitant which uses professors notes and web",
       "longDescription": "This tool is a real time time AI teaching assistant which uses professors notes and web to help students understand the topic better. This tool uses the notes the professor has uploaded and the web to help students learn. There is a contradiction check to make sure the students are learning the right thing.",
@@ -458,7 +510,7 @@
         ]
     },
     {
-      "id": "8",
+      "id": "9",
       "name": "AI-powered chatbot",
       "description": "A intelligent chatbot system for LEWAS Lab",
       "longDescription": "Developed a production-grade AI assistant for Virginia Tech's LEWAS Lab using Retrieval-Augmented Generation (RAG) architecture. The system processes research documents and lab data to provide accurate, context-aware responses about water quality monitoring and research. Built with a serverless architecture using AWS services, the chatbot features real-time query processing, secure authentication, and efficient document management. The system can handle concurrent users and process 500+ technical documents while maintaining high response accuracy.",
