@@ -19,6 +19,4 @@ Will update things by end of Feb maybe
 
 Need to add shopping website project
 
-Right now very busty with Systems project
-
-i have to add photos about Hackviolet 
+i have to add photos about Hackviolet
