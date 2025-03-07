@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Dhruv Varshney",
   logo_name: "DhruvVarshney",
-  nickname: "Software Engineer",
+  nickname: "AI Engineer",
   subTitle: "Software Engineer specializing in AI/ML and cloud solutions. Currently senior student at Virginia Tech, developing systems that have achieved up to 60x performance improvements.",
   resumeLink: "https://drive.google.com/file/d/1Gusz29c1loFrlrA769GKm3ByPFjEl2KJ/view?usp=sharing",
   portfolio_repository: "https://github.com/DHRUVvkdv/dhruv-portfolio",
