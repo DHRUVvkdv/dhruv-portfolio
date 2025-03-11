@@ -15,8 +15,6 @@ Will start updating the website with more projects.
 
 Updated more projects
 
-Will update things by end of Feb maybe
-
 Need to add shopping website project
 
 i have to add photos about Hackviolet
