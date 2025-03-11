@@ -11,8 +11,6 @@ Remove all the unneccesary media
 
 Add a "Inspired from Ashutosh" maybe
 
-Will start updating the website with more projects.
-
 Updated more projects
 
 Need to add shopping website project
