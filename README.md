@@ -14,3 +14,7 @@ Updated more projects
 Need to add shopping website project
 
 i have to add photos about Hackviolet
+
+To Do (Sep 21):
+
+- add food blogs - made vs in restaurant.
